@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:alpine
+    container_name: pg_alpine
+    restart: always
+    environment:
+      POSTGRES_USER: alex
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_DB: java-guru
+    ports:
+      - "1212:5432"
+    volumes:
+      # Данные БД
+      - ./data:/var/lib/postgresql/data
+      # Папка для логов на хосте
+      - ./logs:/var/log/postgresql
+      # Ваш кастомный конфиг
+      - ./postgresql.conf:/etc/postgresql/postgresql.conf:ro
+    command: >
+      postgres
+      -c config_file=/etc/postgresql/postgresql.conf

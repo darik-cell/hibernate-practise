@@ -1,0 +1,18 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+
+# Логи
+logs/
+app-logs/
+Ex1/logs/
+
+# Данные PostgreSQL
+Ex1/data/
+
+# Прочее
+*.log
