@@ -1,0 +1,2761 @@
+2025-07-16 15:08:09.143 GMT [] @  1 3: LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+2025-07-16 15:08:09.143 GMT [] @  1 4: LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-07-16 15:08:09.143 GMT [] @  1 5: LOG:  listening on IPv6 address "::", port 5432
+2025-07-16 15:08:09.148 GMT [] @  1 6: LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-07-16 15:08:09.191 GMT [] @  30 1: LOG:  database system was shut down at 2025-07-15 11:37:49 GMT
+2025-07-16 15:08:09.265 GMT [] @  1 7: LOG:  database system is ready to accept connections
+2025-07-16 15:08:44.336 GMT [java-guru] alex@java-guru 172.19.0.1 34 1: LOG:  duration: 3.683 ms  parse <unnamed>: SET extra_float_digits = 3
+2025-07-16 15:08:44.336 GMT [java-guru] alex@java-guru 172.19.0.1 34 2: LOG:  duration: 0.037 ms  bind <unnamed>: SET extra_float_digits = 3
+2025-07-16 15:08:44.336 GMT [java-guru] alex@java-guru 172.19.0.1 34 3: LOG:  execute <unnamed>: SET extra_float_digits = 3
+2025-07-16 15:08:44.337 GMT [java-guru] alex@java-guru 172.19.0.1 34 4: LOG:  duration: 0.686 ms
+2025-07-16 15:08:44.338 GMT [java-guru] alex@java-guru 172.19.0.1 34 5: LOG:  duration: 0.308 ms  parse <unnamed>: SET application_name = ''
+2025-07-16 15:08:44.338 GMT [java-guru] alex@java-guru 172.19.0.1 34 6: LOG:  duration: 0.003 ms  bind <unnamed>: SET application_name = ''
+2025-07-16 15:08:44.338 GMT [java-guru] alex@java-guru 172.19.0.1 34 7: LOG:  execute <unnamed>: SET application_name = ''
+2025-07-16 15:08:44.338 GMT [java-guru] alex@java-guru 172.19.0.1 34 8: LOG:  duration: 0.008 ms
+2025-07-16 15:08:44.396 GMT [java-guru] alex@java-guru 172.19.0.1 34 9: LOG:  duration: 39.459 ms  parse <unnamed>: select version()
+2025-07-16 15:08:44.398 GMT [java-guru] alex@java-guru 172.19.0.1 34 10: LOG:  duration: 1.575 ms  bind <unnamed>: select version()
+2025-07-16 15:08:44.398 GMT [java-guru] alex@java-guru 172.19.0.1 34 11: LOG:  execute <unnamed>: select version()
+2025-07-16 15:08:44.398 GMT [java-guru] alex@java-guru 172.19.0.1 34 12: LOG:  duration: 0.031 ms
+2025-07-16 15:08:44.414 GMT [java-guru] alex@java-guru 172.19.0.1 34 13: LOG:  duration: 0.072 ms  parse <unnamed>: SET application_name = 'IntelliJ IDEA 2025.1.3'
+2025-07-16 15:08:44.414 GMT [java-guru] alex@java-guru 172.19.0.1 34 14: LOG:  duration: 0.007 ms  bind <unnamed>: SET application_name = 'IntelliJ IDEA 2025.1.3'
+2025-07-16 15:08:44.414 GMT [java-guru] alex@java-guru 172.19.0.1 34 15: LOG:  execute <unnamed>: SET application_name = 'IntelliJ IDEA 2025.1.3'
+2025-07-16 15:08:44.414 GMT [java-guru] alex@java-guru 172.19.0.1 34 16: LOG:  duration: 0.013 ms
+2025-07-16 15:08:44.445 GMT [java-guru] alex@java-guru 172.19.0.1 34 17: LOG:  duration: 0.060 ms  parse <unnamed>: SELECT 'keep alive'
+2025-07-16 15:08:44.445 GMT [java-guru] alex@java-guru 172.19.0.1 34 18: LOG:  duration: 0.045 ms  bind <unnamed>: SELECT 'keep alive'
+2025-07-16 15:08:44.445 GMT [java-guru] alex@java-guru 172.19.0.1 34 19: LOG:  execute <unnamed>: SELECT 'keep alive'
+2025-07-16 15:08:44.445 GMT [java-guru] alex@java-guru 172.19.0.1 34 20: LOG:  duration: 0.009 ms
+2025-07-16 15:08:44.487 GMT [java-guru] alex@java-guru 172.19.0.1 34 21: LOG:  duration: 37.857 ms  parse <unnamed>: select ssl from pg_stat_ssl where pid = pg_backend_pid()
+2025-07-16 15:08:44.498 GMT [java-guru] alex@java-guru 172.19.0.1 34 22: LOG:  duration: 10.492 ms  bind <unnamed>: select ssl from pg_stat_ssl where pid = pg_backend_pid()
+2025-07-16 15:08:44.498 GMT [java-guru] alex@java-guru 172.19.0.1 34 23: LOG:  execute <unnamed>: select ssl from pg_stat_ssl where pid = pg_backend_pid()
+2025-07-16 15:08:44.498 GMT [java-guru] alex@java-guru 172.19.0.1 34 24: LOG:  duration: 0.106 ms
+2025-07-16 15:08:46.150 GMT [java-guru] alex@java-guru 172.19.0.1 35 1: LOG:  duration: 0.106 ms  parse <unnamed>: SET extra_float_digits = 3
+2025-07-16 15:08:46.150 GMT [java-guru] alex@java-guru 172.19.0.1 35 2: LOG:  duration: 0.008 ms  bind <unnamed>: SET extra_float_digits = 3
+2025-07-16 15:08:46.150 GMT [java-guru] alex@java-guru 172.19.0.1 35 3: LOG:  execute <unnamed>: SET extra_float_digits = 3
+2025-07-16 15:08:46.150 GMT [java-guru] alex@java-guru 172.19.0.1 35 4: LOG:  duration: 0.013 ms
+2025-07-16 15:08:46.151 GMT [java-guru] alex@java-guru 172.19.0.1 35 5: LOG:  duration: 0.017 ms  parse <unnamed>: SET application_name = ''
+2025-07-16 15:08:46.151 GMT [java-guru] alex@java-guru 172.19.0.1 35 6: LOG:  duration: 0.004 ms  bind <unnamed>: SET application_name = ''
+2025-07-16 15:08:46.151 GMT [java-guru] alex@java-guru 172.19.0.1 35 7: LOG:  execute <unnamed>: SET application_name = ''
+2025-07-16 15:08:46.151 GMT [java-guru] alex@java-guru 172.19.0.1 35 8: LOG:  duration: 0.008 ms
+2025-07-16 15:08:46.179 GMT [java-guru] alex@java-guru 172.19.0.1 35 9: LOG:  duration: 0.266 ms  parse <unnamed>: select version()
+2025-07-16 15:08:46.179 GMT [java-guru] alex@java-guru 172.19.0.1 35 10: LOG:  duration: 0.088 ms  bind <unnamed>: select version()
+2025-07-16 15:08:46.179 GMT [java-guru] alex@java-guru 172.19.0.1 35 11: LOG:  execute <unnamed>: select version()
+2025-07-16 15:08:46.179 GMT [java-guru] alex@java-guru 172.19.0.1 35 12: LOG:  duration: 0.021 ms
+2025-07-16 15:08:46.204 GMT [java-guru] alex@java-guru 172.19.0.1 35 13: LOG:  duration: 0.036 ms  parse <unnamed>: SET application_name = 'IntelliJ IDEA 2025.1.3'
+2025-07-16 15:08:46.204 GMT [java-guru] alex@java-guru 172.19.0.1 35 14: LOG:  duration: 0.010 ms  bind <unnamed>: SET application_name = 'IntelliJ IDEA 2025.1.3'
+2025-07-16 15:08:46.204 GMT [java-guru] alex@java-guru 172.19.0.1 35 15: LOG:  execute <unnamed>: SET application_name = 'IntelliJ IDEA 2025.1.3'
+2025-07-16 15:08:46.204 GMT [java-guru] alex@java-guru 172.19.0.1 35 16: LOG:  duration: 0.020 ms
+2025-07-16 15:08:46.237 GMT [java-guru] alex@java-guru 172.19.0.1 35 17: LOG:  duration: 0.018 ms  parse <unnamed>: 
+2025-07-16 15:08:46.237 GMT [java-guru] alex@java-guru 172.19.0.1 35 18: LOG:  duration: 0.005 ms  bind <unnamed>: 
+2025-07-16 15:08:46.257 GMT [java-guru] alex@java-guru 172.19.0.1 35 19: LOG:  duration: 4.153 ms  parse <unnamed>: select current_database() as a, current_schemas(false) as b
+2025-07-16 15:08:46.257 GMT [java-guru] alex@java-guru 172.19.0.1 35 20: LOG:  duration: 0.048 ms  bind <unnamed>: select current_database() as a, current_schemas(false) as b
+2025-07-16 15:08:46.257 GMT [java-guru] alex@java-guru 172.19.0.1 35 21: LOG:  execute <unnamed>: select current_database() as a, current_schemas(false) as b
+2025-07-16 15:08:46.266 GMT [java-guru] alex@java-guru 172.19.0.1 35 22: LOG:  duration: 9.023 ms
+2025-07-16 15:08:46.304 GMT [java-guru] alex@java-guru 172.19.0.1 35 23: LOG:  duration: 0.159 ms  parse <unnamed>: select current_database(), current_schema(), current_user
+2025-07-16 15:08:46.304 GMT [java-guru] alex@java-guru 172.19.0.1 35 24: LOG:  duration: 0.045 ms  bind <unnamed>: select current_database(), current_schema(), current_user
+2025-07-16 15:08:46.304 GMT [java-guru] alex@java-guru 172.19.0.1 35 25: LOG:  execute <unnamed>: select current_database(), current_schema(), current_user
+2025-07-16 15:08:46.304 GMT [java-guru] alex@java-guru 172.19.0.1 35 26: LOG:  duration: 0.015 ms
+2025-07-16 15:08:46.362 GMT [java-guru] alex@java-guru 172.19.0.1 35 27: LOG:  duration: 26.618 ms  parse <unnamed>: select round(extract(epoch from pg_postmaster_start_time() at time zone 'UTC')) as startup_time
+2025-07-16 15:08:46.362 GMT [java-guru] alex@java-guru 172.19.0.1 35 28: LOG:  duration: 0.107 ms  bind <unnamed>: select round(extract(epoch from pg_postmaster_start_time() at time zone 'UTC')) as startup_time
+2025-07-16 15:08:46.362 GMT [java-guru] alex@java-guru 172.19.0.1 35 29: LOG:  execute <unnamed>: select round(extract(epoch from pg_postmaster_start_time() at time zone 'UTC')) as startup_time
+2025-07-16 15:08:46.374 GMT [java-guru] alex@java-guru 172.19.0.1 35 30: LOG:  duration: 11.917 ms
+2025-07-16 15:08:46.434 GMT [java-guru] alex@java-guru 172.19.0.1 35 31: LOG:  duration: 34.033 ms  parse <unnamed>: select L.transactionid::varchar::bigint as transaction_id
+	from pg_catalog.pg_locks L
+	where L.transactionid is not null
+	order by pg_catalog.age(L.transactionid) desc
+	limit 1
+2025-07-16 15:08:46.434 GMT [java-guru] alex@java-guru 172.19.0.1 35 32: LOG:  duration: 0.593 ms  bind <unnamed>: select L.transactionid::varchar::bigint as transaction_id
+	from pg_catalog.pg_locks L
+	where L.transactionid is not null
+	order by pg_catalog.age(L.transactionid) desc
+	limit 1
+2025-07-16 15:08:46.434 GMT [java-guru] alex@java-guru 172.19.0.1 35 33: LOG:  execute <unnamed>: select L.transactionid::varchar::bigint as transaction_id
+	from pg_catalog.pg_locks L
+	where L.transactionid is not null
+	order by pg_catalog.age(L.transactionid) desc
+	limit 1
+2025-07-16 15:08:46.435 GMT [java-guru] alex@java-guru 172.19.0.1 35 34: LOG:  duration: 0.110 ms
+2025-07-16 15:08:46.448 GMT [java-guru] alex@java-guru 172.19.0.1 35 35: LOG:  duration: 3.144 ms  parse <unnamed>: select case
+	  when pg_catalog.pg_is_in_recovery()
+	    then null
+	  else
+	    (pg_catalog.txid_current() % 4294967296)::varchar::bigint
+	  end as current_txid
+2025-07-16 15:08:46.448 GMT [java-guru] alex@java-guru 172.19.0.1 35 36: LOG:  duration: 0.070 ms  bind <unnamed>: select case
+	  when pg_catalog.pg_is_in_recovery()
+	    then null
+	  else
+	    (pg_catalog.txid_current() % 4294967296)::varchar::bigint
+	  end as current_txid
+2025-07-16 15:08:46.448 GMT [java-guru] alex@java-guru 172.19.0.1 35 37: LOG:  execute <unnamed>: select case
+	  when pg_catalog.pg_is_in_recovery()
+	    then null
+	  else
+	    (pg_catalog.txid_current() % 4294967296)::varchar::bigint
+	  end as current_txid
+2025-07-16 15:08:46.448 GMT [java-guru] alex@java-guru 172.19.0.1 35 38: LOG:  duration: 0.021 ms
+2025-07-16 15:08:46.464 GMT [java-guru] alex@java-guru 172.19.0.1 35 39: LOG:  duration: 1.910 ms  parse <unnamed>: select N.oid::bigint as id,
+	       datname as name,
+	       D.description,
+	       datistemplate as is_template,
+	       datallowconn as allow_connections,
+	       pg_catalog.pg_get_userbyid(N.datdba) as "owner"
+	from pg_catalog.pg_database N
+	  left join pg_catalog.pg_shdescription D on N.oid = D.objoid
+	order by case when datname = pg_catalog.current_database() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.538 GMT [java-guru] alex@java-guru 172.19.0.1 35 40: LOG:  duration: 74.074 ms  bind <unnamed>: select N.oid::bigint as id,
+	       datname as name,
+	       D.description,
+	       datistemplate as is_template,
+	       datallowconn as allow_connections,
+	       pg_catalog.pg_get_userbyid(N.datdba) as "owner"
+	from pg_catalog.pg_database N
+	  left join pg_catalog.pg_shdescription D on N.oid = D.objoid
+	order by case when datname = pg_catalog.current_database() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.538 GMT [java-guru] alex@java-guru 172.19.0.1 35 41: LOG:  execute <unnamed>: select N.oid::bigint as id,
+	       datname as name,
+	       D.description,
+	       datistemplate as is_template,
+	       datallowconn as allow_connections,
+	       pg_catalog.pg_get_userbyid(N.datdba) as "owner"
+	from pg_catalog.pg_database N
+	  left join pg_catalog.pg_shdescription D on N.oid = D.objoid
+	order by case when datname = pg_catalog.current_database() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.538 GMT [java-guru] alex@java-guru 172.19.0.1 35 42: LOG:  duration: 0.285 ms
+2025-07-16 15:08:46.555 GMT [java-guru] alex@java-guru 172.19.0.1 35 43: LOG:  duration: 0.405 ms  parse <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.620 GMT [java-guru] alex@java-guru 172.19.0.1 35 44: LOG:  duration: 64.574 ms  bind <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.620 GMT [java-guru] alex@java-guru 172.19.0.1 35 45: LOG:  execute <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.620 GMT [java-guru] alex@java-guru 172.19.0.1 35 46: LOG:  duration: 0.549 ms
+2025-07-16 15:08:46.650 GMT [java-guru] alex@java-guru 172.19.0.1 35 47: LOG:  duration: 22.000 ms  parse <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.652 GMT [java-guru] alex@java-guru 172.19.0.1 35 48: LOG:  duration: 1.583 ms  bind <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.652 GMT [java-guru] alex@java-guru 172.19.0.1 35 49: DETAIL:  Parameters: $1 = '28'
+2025-07-16 15:08:46.652 GMT [java-guru] alex@java-guru 172.19.0.1 35 50: LOG:  execute <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.652 GMT [java-guru] alex@java-guru 172.19.0.1 35 51: DETAIL:  Parameters: $1 = '28'
+2025-07-16 15:08:46.652 GMT [java-guru] alex@java-guru 172.19.0.1 35 52: LOG:  duration: 0.070 ms
+2025-07-16 15:08:46.661 GMT [java-guru] alex@java-guru 172.19.0.1 35 53: LOG:  duration: 0.066 ms  parse <unnamed>: show DateStyle
+2025-07-16 15:08:46.661 GMT [java-guru] alex@java-guru 172.19.0.1 35 54: LOG:  duration: 0.011 ms  bind <unnamed>: show DateStyle
+2025-07-16 15:08:46.661 GMT [java-guru] alex@java-guru 172.19.0.1 35 55: LOG:  execute <unnamed>: show DateStyle
+2025-07-16 15:08:46.661 GMT [java-guru] alex@java-guru 172.19.0.1 35 56: LOG:  duration: 0.018 ms
+2025-07-16 15:08:46.671 GMT [java-guru] alex@java-guru 172.19.0.1 35 57: LOG:  duration: 1.713 ms  parse <unnamed>: select name, is_dst from pg_catalog.pg_timezone_names
+	union distinct
+	select abbrev as name, is_dst from pg_catalog.pg_timezone_abbrevs
+2025-07-16 15:08:46.672 GMT [java-guru] alex@java-guru 172.19.0.1 35 58: LOG:  duration: 1.196 ms  bind <unnamed>: select name, is_dst from pg_catalog.pg_timezone_names
+	union distinct
+	select abbrev as name, is_dst from pg_catalog.pg_timezone_abbrevs
+2025-07-16 15:08:46.672 GMT [java-guru] alex@java-guru 172.19.0.1 35 59: LOG:  execute <unnamed>: select name, is_dst from pg_catalog.pg_timezone_names
+	union distinct
+	select abbrev as name, is_dst from pg_catalog.pg_timezone_abbrevs
+2025-07-16 15:08:46.839 GMT [java-guru] alex@java-guru 172.19.0.1 35 60: LOG:  duration: 166.248 ms
+2025-07-16 15:08:46.885 GMT [java-guru] alex@java-guru 172.19.0.1 35 61: LOG:  duration: 30.495 ms  parse <unnamed>: select R.oid::bigint as role_id, rolname as role_name,
+	  rolsuper is_super, rolinherit is_inherit,
+	  rolcreaterole can_createrole, rolcreatedb can_createdb,
+	  rolcanlogin can_login, rolreplication /* false */ is_replication,
+	  rolconnlimit conn_limit, rolvaliduntil valid_until,
+	  rolbypassrls /* false */ bypass_rls, rolconfig config,
+	  D.description
+	from pg_catalog.pg_roles R
+	  left join pg_catalog.pg_shdescription D on D.objoid = R.oid
+2025-07-16 15:08:46.888 GMT [java-guru] alex@java-guru 172.19.0.1 35 62: LOG:  duration: 2.578 ms  bind <unnamed>: select R.oid::bigint as role_id, rolname as role_name,
+	  rolsuper is_super, rolinherit is_inherit,
+	  rolcreaterole can_createrole, rolcreatedb can_createdb,
+	  rolcanlogin can_login, rolreplication /* false */ is_replication,
+	  rolconnlimit conn_limit, rolvaliduntil valid_until,
+	  rolbypassrls /* false */ bypass_rls, rolconfig config,
+	  D.description
+	from pg_catalog.pg_roles R
+	  left join pg_catalog.pg_shdescription D on D.objoid = R.oid
+2025-07-16 15:08:46.888 GMT [java-guru] alex@java-guru 172.19.0.1 35 63: LOG:  execute <unnamed>: select R.oid::bigint as role_id, rolname as role_name,
+	  rolsuper is_super, rolinherit is_inherit,
+	  rolcreaterole can_createrole, rolcreatedb can_createdb,
+	  rolcanlogin can_login, rolreplication /* false */ is_replication,
+	  rolconnlimit conn_limit, rolvaliduntil valid_until,
+	  rolbypassrls /* false */ bypass_rls, rolconfig config,
+	  D.description
+	from pg_catalog.pg_roles R
+	  left join pg_catalog.pg_shdescription D on D.objoid = R.oid
+2025-07-16 15:08:46.888 GMT [java-guru] alex@java-guru 172.19.0.1 35 64: LOG:  duration: 0.073 ms
+2025-07-16 15:08:46.899 GMT [java-guru] alex@java-guru 172.19.0.1 35 65: LOG:  duration: 0.317 ms  parse <unnamed>: select member id, roleid role_id, admin_option
+	          from pg_catalog.pg_auth_members order by id, roleid::text
+2025-07-16 15:08:46.944 GMT [java-guru] alex@java-guru 172.19.0.1 35 66: LOG:  duration: 44.496 ms  bind <unnamed>: select member id, roleid role_id, admin_option
+	          from pg_catalog.pg_auth_members order by id, roleid::text
+2025-07-16 15:08:46.944 GMT [java-guru] alex@java-guru 172.19.0.1 35 67: LOG:  execute <unnamed>: select member id, roleid role_id, admin_option
+	          from pg_catalog.pg_auth_members order by id, roleid::text
+2025-07-16 15:08:46.944 GMT [java-guru] alex@java-guru 172.19.0.1 35 68: LOG:  duration: 0.254 ms
+2025-07-16 15:08:46.954 GMT [java-guru] alex@java-guru 172.19.0.1 35 69: LOG:  duration: 0.865 ms  parse <unnamed>: select T.oid::bigint as id, T.spcname as name,
+	       T.xmin as state_number, pg_catalog.pg_get_userbyid(T.spcowner) as owner,
+	       pg_catalog.pg_tablespace_location(T.oid) /* null */ as location,
+	       T.spcoptions /* null */ as options,
+	       D.description as comment
+	from pg_catalog.pg_tablespace T
+	  left join pg_catalog.pg_shdescription D on D.objoid = T.oid
+	--  where pg_catalog.age(T.xmin) <= #TXAGE
+2025-07-16 15:08:46.962 GMT [java-guru] alex@java-guru 172.19.0.1 35 70: LOG:  duration: 8.307 ms  bind <unnamed>: select T.oid::bigint as id, T.spcname as name,
+	       T.xmin as state_number, pg_catalog.pg_get_userbyid(T.spcowner) as owner,
+	       pg_catalog.pg_tablespace_location(T.oid) /* null */ as location,
+	       T.spcoptions /* null */ as options,
+	       D.description as comment
+	from pg_catalog.pg_tablespace T
+	  left join pg_catalog.pg_shdescription D on D.objoid = T.oid
+	--  where pg_catalog.age(T.xmin) <= #TXAGE
+2025-07-16 15:08:46.962 GMT [java-guru] alex@java-guru 172.19.0.1 35 71: LOG:  execute <unnamed>: select T.oid::bigint as id, T.spcname as name,
+	       T.xmin as state_number, pg_catalog.pg_get_userbyid(T.spcowner) as owner,
+	       pg_catalog.pg_tablespace_location(T.oid) /* null */ as location,
+	       T.spcoptions /* null */ as options,
+	       D.description as comment
+	from pg_catalog.pg_tablespace T
+	  left join pg_catalog.pg_shdescription D on D.objoid = T.oid
+	--  where pg_catalog.age(T.xmin) <= #TXAGE
+2025-07-16 15:08:46.962 GMT [java-guru] alex@java-guru 172.19.0.1 35 72: LOG:  duration: 0.053 ms
+2025-07-16 15:08:46.971 GMT [java-guru] alex@java-guru 172.19.0.1 35 73: LOG:  duration: 0.101 ms  parse <unnamed>: select T.oid as object_id,
+	                 T.spcacl as acl
+	          from pg_catalog.pg_tablespace T 
+	          union all
+	          select T.oid as object_id,
+	                 T.datacl as acl
+	          from pg_catalog.pg_database T 
+2025-07-16 15:08:46.972 GMT [java-guru] alex@java-guru 172.19.0.1 35 74: LOG:  duration: 0.141 ms  bind <unnamed>: select T.oid as object_id,
+	                 T.spcacl as acl
+	          from pg_catalog.pg_tablespace T 
+	          union all
+	          select T.oid as object_id,
+	                 T.datacl as acl
+	          from pg_catalog.pg_database T 
+2025-07-16 15:08:46.972 GMT [java-guru] alex@java-guru 172.19.0.1 35 75: LOG:  execute <unnamed>: select T.oid as object_id,
+	                 T.spcacl as acl
+	          from pg_catalog.pg_tablespace T 
+	          union all
+	          select T.oid as object_id,
+	                 T.datacl as acl
+	          from pg_catalog.pg_database T 
+2025-07-16 15:08:46.972 GMT [java-guru] alex@java-guru 172.19.0.1 35 76: LOG:  duration: 0.025 ms
+2025-07-16 15:08:46.975 GMT [java-guru] alex@java-guru 172.19.0.1 35 77: LOG:  duration: 0.199 ms  parse <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.975 GMT [java-guru] alex@java-guru 172.19.0.1 35 78: LOG:  duration: 0.287 ms  bind <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.975 GMT [java-guru] alex@java-guru 172.19.0.1 35 79: DETAIL:  Parameters: $1 = '1034'
+2025-07-16 15:08:46.975 GMT [java-guru] alex@java-guru 172.19.0.1 35 80: LOG:  execute <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.975 GMT [java-guru] alex@java-guru 172.19.0.1 35 81: DETAIL:  Parameters: $1 = '1034'
+2025-07-16 15:08:46.976 GMT [java-guru] alex@java-guru 172.19.0.1 35 82: LOG:  duration: 0.068 ms
+2025-07-16 15:08:46.977 GMT [java-guru] alex@java-guru 172.19.0.1 35 83: LOG:  duration: 0.168 ms  parse <unnamed>: SELECT e.typdelim FROM pg_catalog.pg_type t, pg_catalog.pg_type e WHERE t.oid = $1 and t.typelem = e.oid
+2025-07-16 15:08:46.986 GMT [java-guru] alex@java-guru 172.19.0.1 35 84: LOG:  duration: 9.364 ms  bind <unnamed>: SELECT e.typdelim FROM pg_catalog.pg_type t, pg_catalog.pg_type e WHERE t.oid = $1 and t.typelem = e.oid
+2025-07-16 15:08:46.986 GMT [java-guru] alex@java-guru 172.19.0.1 35 85: DETAIL:  Parameters: $1 = '1034'
+2025-07-16 15:08:46.986 GMT [java-guru] alex@java-guru 172.19.0.1 35 86: LOG:  execute <unnamed>: SELECT e.typdelim FROM pg_catalog.pg_type t, pg_catalog.pg_type e WHERE t.oid = $1 and t.typelem = e.oid
+2025-07-16 15:08:46.986 GMT [java-guru] alex@java-guru 172.19.0.1 35 87: DETAIL:  Parameters: $1 = '1034'
+2025-07-16 15:08:46.986 GMT [java-guru] alex@java-guru 172.19.0.1 35 88: LOG:  duration: 0.040 ms
+2025-07-16 15:08:46.987 GMT [java-guru] alex@java-guru 172.19.0.1 35 89: LOG:  duration: 0.112 ms  parse <unnamed>: SELECT e.oid, n.nspname = ANY(current_schemas(true)), n.nspname, e.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_type e ON t.typelem = e.oid JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1
+2025-07-16 15:08:46.988 GMT [java-guru] alex@java-guru 172.19.0.1 35 90: LOG:  duration: 0.321 ms  bind <unnamed>: SELECT e.oid, n.nspname = ANY(current_schemas(true)), n.nspname, e.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_type e ON t.typelem = e.oid JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1
+2025-07-16 15:08:46.988 GMT [java-guru] alex@java-guru 172.19.0.1 35 91: DETAIL:  Parameters: $1 = '1034'
+2025-07-16 15:08:46.988 GMT [java-guru] alex@java-guru 172.19.0.1 35 92: LOG:  execute <unnamed>: SELECT e.oid, n.nspname = ANY(current_schemas(true)), n.nspname, e.typname FROM pg_catalog.pg_type t JOIN pg_catalog.pg_type e ON t.typelem = e.oid JOIN pg_catalog.pg_namespace n ON t.typnamespace = n.oid WHERE t.oid = $1
+2025-07-16 15:08:46.988 GMT [java-guru] alex@java-guru 172.19.0.1 35 93: DETAIL:  Parameters: $1 = '1034'
+2025-07-16 15:08:46.988 GMT [java-guru] alex@java-guru 172.19.0.1 35 94: LOG:  duration: 0.062 ms
+2025-07-16 15:08:46.989 GMT [java-guru] alex@java-guru 172.19.0.1 35 95: LOG:  duration: 0.185 ms  parse <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.989 GMT [java-guru] alex@java-guru 172.19.0.1 35 96: LOG:  duration: 0.258 ms  bind <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.989 GMT [java-guru] alex@java-guru 172.19.0.1 35 97: DETAIL:  Parameters: $1 = '1033'
+2025-07-16 15:08:46.989 GMT [java-guru] alex@java-guru 172.19.0.1 35 98: LOG:  execute <unnamed>: SELECT typinput='pg_catalog.array_in'::regproc as is_array, typtype, typname, pg_type.oid   FROM pg_catalog.pg_type   LEFT JOIN (select ns.oid as nspoid, ns.nspname, r.r           from pg_namespace as ns           join ( select s.r, (current_schemas(false))[s.r] as nspname                    from generate_series(1, array_upper(current_schemas(false), 1)) as s(r) ) as r          using ( nspname )        ) as sp     ON sp.nspoid = typnamespace  WHERE pg_type.oid = $1  ORDER BY sp.r, pg_type.oid DESC
+2025-07-16 15:08:46.989 GMT [java-guru] alex@java-guru 172.19.0.1 35 99: DETAIL:  Parameters: $1 = '1033'
+2025-07-16 15:08:46.989 GMT [java-guru] alex@java-guru 172.19.0.1 35 100: LOG:  duration: 0.064 ms
+2025-07-16 15:08:46.997 GMT [java-guru] alex@java-guru 172.19.0.1 35 101: LOG:  duration: 0.171 ms  parse <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.997 GMT [java-guru] alex@java-guru 172.19.0.1 35 102: LOG:  duration: 0.236 ms  bind <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.997 GMT [java-guru] alex@java-guru 172.19.0.1 35 103: LOG:  execute <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:46.997 GMT [java-guru] alex@java-guru 172.19.0.1 35 104: LOG:  duration: 0.058 ms
+2025-07-16 15:08:47.004 GMT [java-guru] alex@java-guru 172.19.0.1 35 105: LOG:  duration: 0.138 ms  parse <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:47.004 GMT [java-guru] alex@java-guru 172.19.0.1 35 106: LOG:  duration: 0.243 ms  bind <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:47.004 GMT [java-guru] alex@java-guru 172.19.0.1 35 107: LOG:  execute <unnamed>: select N.oid::bigint as id,
+	       N.xmin as state_number,
+	       nspname as name,
+	       D.description,
+	       pg_catalog.pg_get_userbyid(N.nspowner) as "owner"
+	from pg_catalog.pg_namespace N
+	  left join pg_catalog.pg_description D on N.oid = D.objoid
+	order by case when nspname = pg_catalog.current_schema() then -1::bigint else N.oid::bigint end
+2025-07-16 15:08:47.004 GMT [java-guru] alex@java-guru 172.19.0.1 35 108: LOG:  duration: 0.060 ms
+2025-07-16 15:08:47.011 GMT [java-guru] alex@java-guru 172.19.0.1 35 109: LOG:  duration: 0.308 ms  parse <unnamed>: select usesuper
+	from pg_user
+	where usename = current_user
+2025-07-16 15:08:47.012 GMT [java-guru] alex@java-guru 172.19.0.1 35 110: LOG:  duration: 0.211 ms  bind <unnamed>: select usesuper
+	from pg_user
+	where usename = current_user
+2025-07-16 15:08:47.012 GMT [java-guru] alex@java-guru 172.19.0.1 35 111: LOG:  execute <unnamed>: select usesuper
+	from pg_user
+	where usename = current_user
+2025-07-16 15:08:47.012 GMT [java-guru] alex@java-guru 172.19.0.1 35 112: LOG:  duration: 0.016 ms
+2025-07-16 15:08:47.018 GMT [java-guru] alex@java-guru 172.19.0.1 35 113: LOG:  duration: 0.225 ms  parse <unnamed>: select t.oid as id,
+	       t.xmin as state_number,
+	       t.evtname as name,
+	       t.evtevent as event,
+	       t.evtfoid as routine_id,
+	       pg_catalog.pg_get_userbyid(t.evtowner) as owner,
+	       t.evttags as tags,
+	       case when t.evtenabled = 'D' then 1 else 0 end as is_disabled
+	from pg_catalog.pg_event_trigger t
+	--  where pg_catalog.age(t.xmin) <= #TXAGE
+2025-07-16 15:08:47.035 GMT [java-guru] alex@java-guru 172.19.0.1 35 114: LOG:  duration: 16.610 ms  bind <unnamed>: select t.oid as id,
+	       t.xmin as state_number,
+	       t.evtname as name,
+	       t.evtevent as event,
+	       t.evtfoid as routine_id,
+	       pg_catalog.pg_get_userbyid(t.evtowner) as owner,
+	       t.evttags as tags,
+	       case when t.evtenabled = 'D' then 1 else 0 end as is_disabled
+	from pg_catalog.pg_event_trigger t
+	--  where pg_catalog.age(t.xmin) <= #TXAGE
+2025-07-16 15:08:47.035 GMT [java-guru] alex@java-guru 172.19.0.1 35 115: LOG:  execute <unnamed>: select t.oid as id,
+	       t.xmin as state_number,
+	       t.evtname as name,
+	       t.evtevent as event,
+	       t.evtfoid as routine_id,
+	       pg_catalog.pg_get_userbyid(t.evtowner) as owner,
+	       t.evttags as tags,
+	       case when t.evtenabled = 'D' then 1 else 0 end as is_disabled
+	from pg_catalog.pg_event_trigger t
+	--  where pg_catalog.age(t.xmin) <= #TXAGE
+2025-07-16 15:08:47.035 GMT [java-guru] alex@java-guru 172.19.0.1 35 116: LOG:  duration: 0.016 ms
+2025-07-16 15:08:47.042 GMT [java-guru] alex@java-guru 172.19.0.1 35 117: LOG:  duration: 0.313 ms  parse <unnamed>: select fdw.oid as id,
+	       fdw.xmin as state_number,
+	       fdw.fdwname as name,
+	       pr.proname as handler,
+	       nspc.nspname as handler_schema,
+	       pr2.proname as validator,
+	       nspc2.nspname as validator_schema,
+	       fdw.fdwoptions as options,
+	       pg_catalog.pg_get_userbyid(fdw.fdwowner) as "owner"
+	from pg_catalog.pg_foreign_data_wrapper fdw
+	     left outer join pg_catalog.pg_proc pr on fdw.fdwhandler = pr.oid
+	     left outer join pg_catalog.pg_namespace nspc on pr.pronamespace = nspc.oid
+	     left outer join pg_catalog.pg_proc pr2 on fdw.fdwvalidator = pr2.oid
+	     left outer join pg_catalog.pg_namespace nspc2 on pr2.pronamespace = nspc2.oid
+	  --  where pg_catalog.age(fdw.xmin) <= #TXAGE
+2025-07-16 15:08:47.060 GMT [java-guru] alex@java-guru 172.19.0.1 35 118: LOG:  duration: 17.746 ms  bind <unnamed>: select fdw.oid as id,
+	       fdw.xmin as state_number,
+	       fdw.fdwname as name,
+	       pr.proname as handler,
+	       nspc.nspname as handler_schema,
+	       pr2.proname as validator,
+	       nspc2.nspname as validator_schema,
+	       fdw.fdwoptions as options,
+	       pg_catalog.pg_get_userbyid(fdw.fdwowner) as "owner"
+	from pg_catalog.pg_foreign_data_wrapper fdw
+	     left outer join pg_catalog.pg_proc pr on fdw.fdwhandler = pr.oid
+	     left outer join pg_catalog.pg_namespace nspc on pr.pronamespace = nspc.oid
+	     left outer join pg_catalog.pg_proc pr2 on fdw.fdwvalidator = pr2.oid
+	     left outer join pg_catalog.pg_namespace nspc2 on pr2.pronamespace = nspc2.oid
+	  --  where pg_catalog.age(fdw.xmin) <= #TXAGE
+2025-07-16 15:08:47.060 GMT [java-guru] alex@java-guru 172.19.0.1 35 119: LOG:  execute <unnamed>: select fdw.oid as id,
+	       fdw.xmin as state_number,
+	       fdw.fdwname as name,
+	       pr.proname as handler,
+	       nspc.nspname as handler_schema,
+	       pr2.proname as validator,
+	       nspc2.nspname as validator_schema,
+	       fdw.fdwoptions as options,
+	       pg_catalog.pg_get_userbyid(fdw.fdwowner) as "owner"
+	from pg_catalog.pg_foreign_data_wrapper fdw
+	     left outer join pg_catalog.pg_proc pr on fdw.fdwhandler = pr.oid
+	     left outer join pg_catalog.pg_namespace nspc on pr.pronamespace = nspc.oid
+	     left outer join pg_catalog.pg_proc pr2 on fdw.fdwvalidator = pr2.oid
+	     left outer join pg_catalog.pg_namespace nspc2 on pr2.pronamespace = nspc2.oid
+	  --  where pg_catalog.age(fdw.xmin) <= #TXAGE
+2025-07-16 15:08:47.060 GMT [java-guru] alex@java-guru 172.19.0.1 35 120: LOG:  duration: 0.020 ms
+2025-07-16 15:08:47.066 GMT [java-guru] alex@java-guru 172.19.0.1 35 121: LOG:  duration: 0.238 ms  parse <unnamed>: select srv.oid as id,
+	       srv.srvfdw as fdw_id,
+	       srv.xmin as state_number,
+	       srv.srvname as name,
+	       srv.srvtype as type,
+	       srv.srvversion as version,
+	       srv.srvoptions as options,
+	       pg_catalog.pg_get_userbyid(srv.srvowner) as "owner"
+	from pg_catalog.pg_foreign_server srv
+	  --  where pg_catalog.age(srv.xmin) <= #TXAGE
+2025-07-16 15:08:47.084 GMT [java-guru] alex@java-guru 172.19.0.1 35 122: LOG:  duration: 17.753 ms  bind <unnamed>: select srv.oid as id,
+	       srv.srvfdw as fdw_id,
+	       srv.xmin as state_number,
+	       srv.srvname as name,
+	       srv.srvtype as type,
+	       srv.srvversion as version,
+	       srv.srvoptions as options,
+	       pg_catalog.pg_get_userbyid(srv.srvowner) as "owner"
+	from pg_catalog.pg_foreign_server srv
+	  --  where pg_catalog.age(srv.xmin) <= #TXAGE
+2025-07-16 15:08:47.084 GMT [java-guru] alex@java-guru 172.19.0.1 35 123: LOG:  execute <unnamed>: select srv.oid as id,
+	       srv.srvfdw as fdw_id,
+	       srv.xmin as state_number,
+	       srv.srvname as name,
+	       srv.srvtype as type,
+	       srv.srvversion as version,
+	       srv.srvoptions as options,
+	       pg_catalog.pg_get_userbyid(srv.srvowner) as "owner"
+	from pg_catalog.pg_foreign_server srv
+	  --  where pg_catalog.age(srv.xmin) <= #TXAGE
+2025-07-16 15:08:47.084 GMT [java-guru] alex@java-guru 172.19.0.1 35 124: LOG:  duration: 0.021 ms
+2025-07-16 15:08:47.090 GMT [java-guru] alex@java-guru 172.19.0.1 35 125: LOG:  duration: 0.151 ms  parse <unnamed>: select oid as id,
+	       umserver as server_id,
+	       case when umuser = 0 then null else pg_catalog.pg_get_userbyid(umuser) end as user,
+	       umoptions as options
+	from pg_catalog.pg_user_mapping
+	--  where pg_catalog.age(xmin) <= #TXAGE
+	order by server_id
+2025-07-16 15:08:47.107 GMT [java-guru] alex@java-guru 172.19.0.1 35 126: LOG:  duration: 16.387 ms  bind <unnamed>: select oid as id,
+	       umserver as server_id,
+	       case when umuser = 0 then null else pg_catalog.pg_get_userbyid(umuser) end as user,
+	       umoptions as options
+	from pg_catalog.pg_user_mapping
+	--  where pg_catalog.age(xmin) <= #TXAGE
+	order by server_id
+2025-07-16 15:08:47.107 GMT [java-guru] alex@java-guru 172.19.0.1 35 127: LOG:  execute <unnamed>: select oid as id,
+	       umserver as server_id,
+	       case when umuser = 0 then null else pg_catalog.pg_get_userbyid(umuser) end as user,
+	       umoptions as options
+	from pg_catalog.pg_user_mapping
+	--  where pg_catalog.age(xmin) <= #TXAGE
+	order by server_id
+2025-07-16 15:08:47.107 GMT [java-guru] alex@java-guru 172.19.0.1 35 128: LOG:  duration: 0.039 ms
+2025-07-16 15:08:47.113 GMT [java-guru] alex@java-guru 172.19.0.1 35 129: LOG:  duration: 0.763 ms  parse <unnamed>: select A.oid as access_method_id,
+	       A.xmin as state_number,
+	       A.amname as access_method_name
+	       ,
+	       A.amhandler::oid as handler_id,
+	       pg_catalog.quote_ident(N.nspname) || '.' || pg_catalog.quote_ident(P.proname) as handler_name,
+	       A.amtype as access_method_type
+	       
+	from pg_am A
+	  join pg_proc P on A.amhandler::oid = P.oid
+	  join pg_namespace N on P.pronamespace = N.oid
+	  
+	--  where pg_catalog.age(A.xmin) <= #TXAGE
+2025-07-16 15:08:47.137 GMT [java-guru] alex@java-guru 172.19.0.1 35 130: LOG:  duration: 23.741 ms  bind <unnamed>: select A.oid as access_method_id,
+	       A.xmin as state_number,
+	       A.amname as access_method_name
+	       ,
+	       A.amhandler::oid as handler_id,
+	       pg_catalog.quote_ident(N.nspname) || '.' || pg_catalog.quote_ident(P.proname) as handler_name,
+	       A.amtype as access_method_type
+	       
+	from pg_am A
+	  join pg_proc P on A.amhandler::oid = P.oid
+	  join pg_namespace N on P.pronamespace = N.oid
+	  
+	--  where pg_catalog.age(A.xmin) <= #TXAGE
+2025-07-16 15:08:47.137 GMT [java-guru] alex@java-guru 172.19.0.1 35 131: LOG:  execute <unnamed>: select A.oid as access_method_id,
+	       A.xmin as state_number,
+	       A.amname as access_method_name
+	       ,
+	       A.amhandler::oid as handler_id,
+	       pg_catalog.quote_ident(N.nspname) || '.' || pg_catalog.quote_ident(P.proname) as handler_name,
+	       A.amtype as access_method_type
+	       
+	from pg_am A
+	  join pg_proc P on A.amhandler::oid = P.oid
+	  join pg_namespace N on P.pronamespace = N.oid
+	  
+	--  where pg_catalog.age(A.xmin) <= #TXAGE
+2025-07-16 15:08:47.138 GMT [java-guru] alex@java-guru 172.19.0.1 35 132: LOG:  duration: 1.141 ms
+2025-07-16 15:08:47.163 GMT [java-guru] alex@java-guru 172.19.0.1 35 133: LOG:  duration: 16.140 ms  parse <unnamed>: select E.oid        as id,
+	       E.xmin       as state_number,
+	       extname      as name,
+	       extversion   as version,
+	       extnamespace as schema_id,
+	       nspname      as schema_name
+	       ,
+	       array(select unnest
+	             from unnest(available_versions)
+	             where unnest > extversion) as available_updates
+	       
+	from pg_catalog.pg_extension E
+	       join pg_namespace N on E.extnamespace = N.oid
+	       left join (select name, array_agg(version) as available_versions
+	                  from pg_available_extension_versions()
+	                  group by name) V on E.extname = V.name
+	       
+	--  where pg_catalog.age(E.xmin) <= #TXAGE
+2025-07-16 15:08:47.186 GMT [java-guru] alex@java-guru 172.19.0.1 35 134: LOG:  duration: 23.200 ms  bind <unnamed>: select E.oid        as id,
+	       E.xmin       as state_number,
+	       extname      as name,
+	       extversion   as version,
+	       extnamespace as schema_id,
+	       nspname      as schema_name
+	       ,
+	       array(select unnest
+	             from unnest(available_versions)
+	             where unnest > extversion) as available_updates
+	       
+	from pg_catalog.pg_extension E
+	       join pg_namespace N on E.extnamespace = N.oid
+	       left join (select name, array_agg(version) as available_versions
+	                  from pg_available_extension_versions()
+	                  group by name) V on E.extname = V.name
+	       
+	--  where pg_catalog.age(E.xmin) <= #TXAGE
+2025-07-16 15:08:47.187 GMT [java-guru] alex@java-guru 172.19.0.1 35 135: LOG:  execute <unnamed>: select E.oid        as id,
+	       E.xmin       as state_number,
+	       extname      as name,
+	       extversion   as version,
+	       extnamespace as schema_id,
+	       nspname      as schema_name
+	       ,
+	       array(select unnest
+	             from unnest(available_versions)
+	             where unnest > extversion) as available_updates
+	       
+	from pg_catalog.pg_extension E
+	       join pg_namespace N on E.extnamespace = N.oid
+	       left join (select name, array_agg(version) as available_versions
+	                  from pg_available_extension_versions()
+	                  group by name) V on E.extname = V.name
+	       
+	--  where pg_catalog.age(E.xmin) <= #TXAGE
+2025-07-16 15:08:47.207 GMT [java-guru] alex@java-guru 172.19.0.1 35 136: LOG:  duration: 20.143 ms
+2025-07-16 15:08:47.215 GMT [java-guru] alex@java-guru 172.19.0.1 35 137: LOG:  duration: 0.405 ms  parse <unnamed>: select l.oid as id, l.xmin state_number, lanname as name, lanpltrusted as trusted,
+	       h.proname as handler, hs.nspname as handlerSchema,
+	       i.proname as inline, isc.nspname as inlineSchema,
+	       v.proname as validator, vs.nspname as validatorSchema
+	from pg_catalog.pg_language l
+	    left join pg_catalog.pg_proc h on h.oid = lanplcallfoid
+	    left join pg_catalog.pg_namespace hs on hs.oid = h.pronamespace
+	    left join pg_catalog.pg_proc i on i.oid = laninline
+	    left join pg_catalog.pg_namespace isc on isc.oid = i.pronamespace
+	    left join pg_catalog.pg_proc v on v.oid = lanvalidator
+	    left join pg_catalog.pg_namespace vs on vs.oid = v.pronamespace
+	--  where pg_catalog.age(l.xmin) <= #TXAGE
+	order by lanname
+2025-07-16 15:08:47.242 GMT [java-guru] alex@java-guru 172.19.0.1 35 138: LOG:  duration: 26.878 ms  bind <unnamed>: select l.oid as id, l.xmin state_number, lanname as name, lanpltrusted as trusted,
+	       h.proname as handler, hs.nspname as handlerSchema,
+	       i.proname as inline, isc.nspname as inlineSchema,
+	       v.proname as validator, vs.nspname as validatorSchema
+	from pg_catalog.pg_language l
+	    left join pg_catalog.pg_proc h on h.oid = lanplcallfoid
+	    left join pg_catalog.pg_namespace hs on hs.oid = h.pronamespace
+	    left join pg_catalog.pg_proc i on i.oid = laninline
+	    left join pg_catalog.pg_namespace isc on isc.oid = i.pronamespace
+	    left join pg_catalog.pg_proc v on v.oid = lanvalidator
+	    left join pg_catalog.pg_namespace vs on vs.oid = v.pronamespace
+	--  where pg_catalog.age(l.xmin) <= #TXAGE
+	order by lanname
+2025-07-16 15:08:47.242 GMT [java-guru] alex@java-guru 172.19.0.1 35 139: LOG:  execute <unnamed>: select l.oid as id, l.xmin state_number, lanname as name, lanpltrusted as trusted,
+	       h.proname as handler, hs.nspname as handlerSchema,
+	       i.proname as inline, isc.nspname as inlineSchema,
+	       v.proname as validator, vs.nspname as validatorSchema
+	from pg_catalog.pg_language l
+	    left join pg_catalog.pg_proc h on h.oid = lanplcallfoid
+	    left join pg_catalog.pg_namespace hs on hs.oid = h.pronamespace
+	    left join pg_catalog.pg_proc i on i.oid = laninline
+	    left join pg_catalog.pg_namespace isc on isc.oid = i.pronamespace
+	    left join pg_catalog.pg_proc v on v.oid = lanvalidator
+	    left join pg_catalog.pg_namespace vs on vs.oid = v.pronamespace
+	--  where pg_catalog.age(l.xmin) <= #TXAGE
+	order by lanname
+2025-07-16 15:08:47.243 GMT [java-guru] alex@java-guru 172.19.0.1 35 140: LOG:  duration: 0.696 ms
+2025-07-16 15:08:47.251 GMT [java-guru] alex@java-guru 172.19.0.1 35 141: LOG:  duration: 0.596 ms  parse <unnamed>: select D.objoid id, case
+	    when 'pg_catalog.pg_event_trigger'::regclass = classoid then 'T'
+	    when 'pg_catalog.pg_am'::regclass = classoid then 'A'
+	    when 'pg_catalog.pg_cast'::regclass = classoid then 'C'
+	    when 'pg_catalog.pg_foreign_data_wrapper'::regclass = classoid then 'W'
+	    when 'pg_catalog.pg_foreign_server'::regclass = classoid then 'S'
+	    when 'pg_catalog.pg_language'::regclass = classoid then 'L'
+	    when 'pg_catalog.pg_extension'::regclass = classoid then 'E'
+	    
+	  end as kind,
+	  D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	where classoid in (
+	  'pg_catalog.pg_event_trigger'::regclass,
+	  'pg_catalog.pg_am'::regclass,
+	  'pg_catalog.pg_cast'::regclass,
+	  'pg_catalog.pg_foreign_data_wrapper'::regclass,
+	  'pg_catalog.pg_foreign_server'::regclass,
+	  'pg_catalog.pg_language'::regclass
+	  ,
+	  'pg_catalog.pg_extension'::regclass
+	  
+	)
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+2025-07-16 15:08:47.251 GMT [java-guru] alex@java-guru 172.19.0.1 35 142: LOG:  duration: 0.188 ms  bind <unnamed>: select D.objoid id, case
+	    when 'pg_catalog.pg_event_trigger'::regclass = classoid then 'T'
+	    when 'pg_catalog.pg_am'::regclass = classoid then 'A'
+	    when 'pg_catalog.pg_cast'::regclass = classoid then 'C'
+	    when 'pg_catalog.pg_foreign_data_wrapper'::regclass = classoid then 'W'
+	    when 'pg_catalog.pg_foreign_server'::regclass = classoid then 'S'
+	    when 'pg_catalog.pg_language'::regclass = classoid then 'L'
+	    when 'pg_catalog.pg_extension'::regclass = classoid then 'E'
+	    
+	  end as kind,
+	  D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	where classoid in (
+	  'pg_catalog.pg_event_trigger'::regclass,
+	  'pg_catalog.pg_am'::regclass,
+	  'pg_catalog.pg_cast'::regclass,
+	  'pg_catalog.pg_foreign_data_wrapper'::regclass,
+	  'pg_catalog.pg_foreign_server'::regclass,
+	  'pg_catalog.pg_language'::regclass
+	  ,
+	  'pg_catalog.pg_extension'::regclass
+	  
+	)
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+2025-07-16 15:08:47.251 GMT [java-guru] alex@java-guru 172.19.0.1 35 143: LOG:  execute <unnamed>: select D.objoid id, case
+	    when 'pg_catalog.pg_event_trigger'::regclass = classoid then 'T'
+	    when 'pg_catalog.pg_am'::regclass = classoid then 'A'
+	    when 'pg_catalog.pg_cast'::regclass = classoid then 'C'
+	    when 'pg_catalog.pg_foreign_data_wrapper'::regclass = classoid then 'W'
+	    when 'pg_catalog.pg_foreign_server'::regclass = classoid then 'S'
+	    when 'pg_catalog.pg_language'::regclass = classoid then 'L'
+	    when 'pg_catalog.pg_extension'::regclass = classoid then 'E'
+	    
+	  end as kind,
+	  D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	where classoid in (
+	  'pg_catalog.pg_event_trigger'::regclass,
+	  'pg_catalog.pg_am'::regclass,
+	  'pg_catalog.pg_cast'::regclass,
+	  'pg_catalog.pg_foreign_data_wrapper'::regclass,
+	  'pg_catalog.pg_foreign_server'::regclass,
+	  'pg_catalog.pg_language'::regclass
+	  ,
+	  'pg_catalog.pg_extension'::regclass
+	  
+	)
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+2025-07-16 15:08:47.254 GMT [java-guru] alex@java-guru 172.19.0.1 35 144: LOG:  duration: 2.533 ms
+2025-07-16 15:08:47.263 GMT [java-guru] alex@java-guru 172.19.0.1 35 145: LOG:  duration: 0.124 ms  parse <unnamed>: select T.oid as object_id,
+	                 T.fdwacl as acl
+	          from pg_catalog.pg_foreign_data_wrapper T 
+	          union all
+	          select T.oid as object_id,
+	                 T.lanacl as acl
+	          from pg_catalog.pg_language T 
+	          union all
+	          select T.oid as object_id,
+	                 T.nspacl as acl
+	          from pg_catalog.pg_namespace T 
+	          union all
+	          select T.oid as object_id,
+	                 T.srvacl as acl
+	          from pg_catalog.pg_foreign_server T 
+	          
+2025-07-16 15:08:47.263 GMT [java-guru] alex@java-guru 172.19.0.1 35 146: LOG:  duration: 0.193 ms  bind <unnamed>: select T.oid as object_id,
+	                 T.fdwacl as acl
+	          from pg_catalog.pg_foreign_data_wrapper T 
+	          union all
+	          select T.oid as object_id,
+	                 T.lanacl as acl
+	          from pg_catalog.pg_language T 
+	          union all
+	          select T.oid as object_id,
+	                 T.nspacl as acl
+	          from pg_catalog.pg_namespace T 
+	          union all
+	          select T.oid as object_id,
+	                 T.srvacl as acl
+	          from pg_catalog.pg_foreign_server T 
+	          
+2025-07-16 15:08:47.263 GMT [java-guru] alex@java-guru 172.19.0.1 35 147: LOG:  execute <unnamed>: select T.oid as object_id,
+	                 T.fdwacl as acl
+	          from pg_catalog.pg_foreign_data_wrapper T 
+	          union all
+	          select T.oid as object_id,
+	                 T.lanacl as acl
+	          from pg_catalog.pg_language T 
+	          union all
+	          select T.oid as object_id,
+	                 T.nspacl as acl
+	          from pg_catalog.pg_namespace T 
+	          union all
+	          select T.oid as object_id,
+	                 T.srvacl as acl
+	          from pg_catalog.pg_foreign_server T 
+	          
+2025-07-16 15:08:47.263 GMT [java-guru] alex@java-guru 172.19.0.1 35 148: LOG:  duration: 0.067 ms
+2025-07-16 15:08:47.270 GMT [java-guru] alex@java-guru 172.19.0.1 35 149: LOG:  duration: 0.268 ms  parse <unnamed>: select C.oid,
+	       C.xmin as state_number,
+	       C.castsource as castsource_id,
+	       pg_catalog.quote_ident(SN.nspname) || '.' || pg_catalog.quote_ident(S.typname) as castsource_name,
+	       C.casttarget as casttarget_id,
+	       pg_catalog.quote_ident(TN.nspname) || '.' || pg_catalog.quote_ident(T.typname) as casttarget_name,
+	       C.castfunc as castfunc_id,
+	       pg_catalog.quote_ident(FN.nspname) || '.' || pg_catalog.quote_ident(F.proname) as castfunc_name,
+	       C.castcontext,
+	       C.castmethod
+	from pg_cast C
+	     left outer join pg_proc F on C.castfunc::oid = F.oid
+	     left outer join pg_namespace FN on F.pronamespace = FN.oid
+	     join pg_type S on C.castsource::oid = S.oid
+	     join pg_namespace SN on S.typnamespace = SN.oid
+	     join pg_type T on C.casttarget::oid = T.oid
+	     join pg_namespace TN on T.typnamespace = TN.oid
+	--  where pg_catalog.age(C.xmin) <= #TXAGE
+2025-07-16 15:08:47.286 GMT [java-guru] alex@java-guru 172.19.0.1 35 150: LOG:  duration: 16.151 ms  bind <unnamed>: select C.oid,
+	       C.xmin as state_number,
+	       C.castsource as castsource_id,
+	       pg_catalog.quote_ident(SN.nspname) || '.' || pg_catalog.quote_ident(S.typname) as castsource_name,
+	       C.casttarget as casttarget_id,
+	       pg_catalog.quote_ident(TN.nspname) || '.' || pg_catalog.quote_ident(T.typname) as casttarget_name,
+	       C.castfunc as castfunc_id,
+	       pg_catalog.quote_ident(FN.nspname) || '.' || pg_catalog.quote_ident(F.proname) as castfunc_name,
+	       C.castcontext,
+	       C.castmethod
+	from pg_cast C
+	     left outer join pg_proc F on C.castfunc::oid = F.oid
+	     left outer join pg_namespace FN on F.pronamespace = FN.oid
+	     join pg_type S on C.castsource::oid = S.oid
+	     join pg_namespace SN on S.typnamespace = SN.oid
+	     join pg_type T on C.casttarget::oid = T.oid
+	     join pg_namespace TN on T.typnamespace = TN.oid
+	--  where pg_catalog.age(C.xmin) <= #TXAGE
+2025-07-16 15:08:47.286 GMT [java-guru] alex@java-guru 172.19.0.1 35 151: LOG:  execute <unnamed>: select C.oid,
+	       C.xmin as state_number,
+	       C.castsource as castsource_id,
+	       pg_catalog.quote_ident(SN.nspname) || '.' || pg_catalog.quote_ident(S.typname) as castsource_name,
+	       C.casttarget as casttarget_id,
+	       pg_catalog.quote_ident(TN.nspname) || '.' || pg_catalog.quote_ident(T.typname) as casttarget_name,
+	       C.castfunc as castfunc_id,
+	       pg_catalog.quote_ident(FN.nspname) || '.' || pg_catalog.quote_ident(F.proname) as castfunc_name,
+	       C.castcontext,
+	       C.castmethod
+	from pg_cast C
+	     left outer join pg_proc F on C.castfunc::oid = F.oid
+	     left outer join pg_namespace FN on F.pronamespace = FN.oid
+	     join pg_type S on C.castsource::oid = S.oid
+	     join pg_namespace SN on S.typnamespace = SN.oid
+	     join pg_type T on C.casttarget::oid = T.oid
+	     join pg_namespace TN on T.typnamespace = TN.oid
+	--  where pg_catalog.age(C.xmin) <= #TXAGE
+2025-07-16 15:08:47.291 GMT [java-guru] alex@java-guru 172.19.0.1 35 152: LOG:  duration: 5.146 ms
+2025-07-16 15:08:47.306 GMT [java-guru] alex@java-guru 172.19.0.1 35 153: LOG:  duration: 0.240 ms  parse <unnamed>: select E.oid   as extension_id,
+	       D.objid as member_id
+	from pg_extension E join pg_depend D
+	  on E.oid = D.refobjid and
+	     D.refclassid = 'pg_extension'::regclass::oid
+	where D.deptype = 'e'
+	order by extension_id
+2025-07-16 15:08:47.333 GMT [java-guru] alex@java-guru 172.19.0.1 35 154: LOG:  duration: 27.401 ms  bind <unnamed>: select E.oid   as extension_id,
+	       D.objid as member_id
+	from pg_extension E join pg_depend D
+	  on E.oid = D.refobjid and
+	     D.refclassid = 'pg_extension'::regclass::oid
+	where D.deptype = 'e'
+	order by extension_id
+2025-07-16 15:08:47.333 GMT [java-guru] alex@java-guru 172.19.0.1 35 155: LOG:  execute <unnamed>: select E.oid   as extension_id,
+	       D.objid as member_id
+	from pg_extension E join pg_depend D
+	  on E.oid = D.refobjid and
+	     D.refclassid = 'pg_extension'::regclass::oid
+	where D.deptype = 'e'
+	order by extension_id
+2025-07-16 15:08:47.334 GMT [java-guru] alex@java-guru 172.19.0.1 35 156: LOG:  duration: 0.556 ms
+2025-07-16 15:08:47.343 GMT [java-guru] alex@java-guru 172.19.0.1 35 157: LOG:  duration: 0.236 ms  parse <unnamed>: select cls.xmin as sequence_state_number,
+	       sq.seqrelid as sequence_id,
+	       cls.relname as sequence_name,
+	       pg_catalog.format_type(sq.seqtypid, null) as data_type,
+	       sq.seqstart as start_value,
+	       sq.seqincrement as inc_value,
+	       sq.seqmin as min_value,
+	       sq.seqmax as max_value,
+	       sq.seqcache as cache_size,
+	       sq.seqcycle as cycle_option,
+	       pg_catalog.pg_get_userbyid(cls.relowner) as "owner"
+	from pg_catalog.pg_sequence sq
+	    join pg_class cls on sq.seqrelid = cls.oid
+	    where cls.relnamespace = $1::oid
+	--  and pg_catalog.age(cls.xmin) <= #TXAGE
+	--  and cls.relname in ( :[*f_names] )
+2025-07-16 15:08:47.362 GMT [java-guru] alex@java-guru 172.19.0.1 35 158: LOG:  duration: 19.374 ms  bind <unnamed>: select cls.xmin as sequence_state_number,
+	       sq.seqrelid as sequence_id,
+	       cls.relname as sequence_name,
+	       pg_catalog.format_type(sq.seqtypid, null) as data_type,
+	       sq.seqstart as start_value,
+	       sq.seqincrement as inc_value,
+	       sq.seqmin as min_value,
+	       sq.seqmax as max_value,
+	       sq.seqcache as cache_size,
+	       sq.seqcycle as cycle_option,
+	       pg_catalog.pg_get_userbyid(cls.relowner) as "owner"
+	from pg_catalog.pg_sequence sq
+	    join pg_class cls on sq.seqrelid = cls.oid
+	    where cls.relnamespace = $1::oid
+	--  and pg_catalog.age(cls.xmin) <= #TXAGE
+	--  and cls.relname in ( :[*f_names] )
+2025-07-16 15:08:47.362 GMT [java-guru] alex@java-guru 172.19.0.1 35 159: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.363 GMT [java-guru] alex@java-guru 172.19.0.1 35 160: LOG:  execute <unnamed>: select cls.xmin as sequence_state_number,
+	       sq.seqrelid as sequence_id,
+	       cls.relname as sequence_name,
+	       pg_catalog.format_type(sq.seqtypid, null) as data_type,
+	       sq.seqstart as start_value,
+	       sq.seqincrement as inc_value,
+	       sq.seqmin as min_value,
+	       sq.seqmax as max_value,
+	       sq.seqcache as cache_size,
+	       sq.seqcycle as cycle_option,
+	       pg_catalog.pg_get_userbyid(cls.relowner) as "owner"
+	from pg_catalog.pg_sequence sq
+	    join pg_class cls on sq.seqrelid = cls.oid
+	    where cls.relnamespace = $1::oid
+	--  and pg_catalog.age(cls.xmin) <= #TXAGE
+	--  and cls.relname in ( :[*f_names] )
+2025-07-16 15:08:47.363 GMT [java-guru] alex@java-guru 172.19.0.1 35 161: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.363 GMT [java-guru] alex@java-guru 172.19.0.1 35 162: LOG:  duration: 0.027 ms
+2025-07-16 15:08:47.369 GMT [java-guru] alex@java-guru 172.19.0.1 35 163: LOG:  duration: 0.343 ms  parse <unnamed>: select T.oid as type_id,
+	       T.xmin as type_state_number,
+	       T.typname as type_name,
+	       T.typtype as type_sub_kind,
+	       T.typcategory as type_category,
+	       T.typrelid as class_id,
+	       T.typbasetype as base_type_id,
+	       case when T.typtype in ('c','e') then null
+	            else pg_catalog.format_type(T.typbasetype, T.typtypmod) end as type_def,
+	       T.typndims as dimensions_number,
+	       T.typdefault as default_expression,
+	       T.typnotnull as mandatory,
+	       pg_catalog.pg_get_userbyid(T.typowner) as "owner"
+	from pg_catalog.pg_type T
+	         left outer join pg_catalog.pg_class C
+	             on T.typrelid = C.oid
+	where T.typnamespace = $1::oid
+	  --  and T.typname in ( :[*f_names] )
+	  --  and pg_catalog.age(T.xmin) <= #TXAGE
+	  and (T.typtype in ('d','e') or
+	       C.relkind = 'c'::"char" or
+	       (T.typtype = 'b' and (T.typelem = 0 OR T.typcategory <> 'A')) or
+	       T.typtype = 'p' and not T.typisdefined)
+	order by 1
+2025-07-16 15:08:47.377 GMT [java-guru] alex@java-guru 172.19.0.1 35 164: LOG:  duration: 8.070 ms  bind <unnamed>: select T.oid as type_id,
+	       T.xmin as type_state_number,
+	       T.typname as type_name,
+	       T.typtype as type_sub_kind,
+	       T.typcategory as type_category,
+	       T.typrelid as class_id,
+	       T.typbasetype as base_type_id,
+	       case when T.typtype in ('c','e') then null
+	            else pg_catalog.format_type(T.typbasetype, T.typtypmod) end as type_def,
+	       T.typndims as dimensions_number,
+	       T.typdefault as default_expression,
+	       T.typnotnull as mandatory,
+	       pg_catalog.pg_get_userbyid(T.typowner) as "owner"
+	from pg_catalog.pg_type T
+	         left outer join pg_catalog.pg_class C
+	             on T.typrelid = C.oid
+	where T.typnamespace = $1::oid
+	  --  and T.typname in ( :[*f_names] )
+	  --  and pg_catalog.age(T.xmin) <= #TXAGE
+	  and (T.typtype in ('d','e') or
+	       C.relkind = 'c'::"char" or
+	       (T.typtype = 'b' and (T.typelem = 0 OR T.typcategory <> 'A')) or
+	       T.typtype = 'p' and not T.typisdefined)
+	order by 1
+2025-07-16 15:08:47.377 GMT [java-guru] alex@java-guru 172.19.0.1 35 165: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.377 GMT [java-guru] alex@java-guru 172.19.0.1 35 166: LOG:  execute <unnamed>: select T.oid as type_id,
+	       T.xmin as type_state_number,
+	       T.typname as type_name,
+	       T.typtype as type_sub_kind,
+	       T.typcategory as type_category,
+	       T.typrelid as class_id,
+	       T.typbasetype as base_type_id,
+	       case when T.typtype in ('c','e') then null
+	            else pg_catalog.format_type(T.typbasetype, T.typtypmod) end as type_def,
+	       T.typndims as dimensions_number,
+	       T.typdefault as default_expression,
+	       T.typnotnull as mandatory,
+	       pg_catalog.pg_get_userbyid(T.typowner) as "owner"
+	from pg_catalog.pg_type T
+	         left outer join pg_catalog.pg_class C
+	             on T.typrelid = C.oid
+	where T.typnamespace = $1::oid
+	  --  and T.typname in ( :[*f_names] )
+	  --  and pg_catalog.age(T.xmin) <= #TXAGE
+	  and (T.typtype in ('d','e') or
+	       C.relkind = 'c'::"char" or
+	       (T.typtype = 'b' and (T.typelem = 0 OR T.typcategory <> 'A')) or
+	       T.typtype = 'p' and not T.typisdefined)
+	order by 1
+2025-07-16 15:08:47.377 GMT [java-guru] alex@java-guru 172.19.0.1 35 167: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.378 GMT [java-guru] alex@java-guru 172.19.0.1 35 168: LOG:  duration: 0.675 ms
+2025-07-16 15:08:47.385 GMT [java-guru] alex@java-guru 172.19.0.1 35 169: LOG:  duration: 0.452 ms  parse <unnamed>: select T.relkind as table_kind,
+	       T.relname as table_name,
+	       T.oid as table_id,
+	       T.xmin as table_state_number,
+	       false /* T.relhasoids */ as table_with_oids,
+	       T.reltablespace as tablespace_id,
+	       T.reloptions as options,
+	       T.relpersistence as persistence,
+	       (select pg_catalog.array_agg(inhparent::bigint order by inhseqno)::varchar from pg_catalog.pg_inherits where T.oid = inhrelid) as ancestors,
+	       (select pg_catalog.array_agg(inhrelid::bigint order by inhrelid)::varchar from pg_catalog.pg_inherits where T.oid = inhparent) as successors,
+	       T.relispartition /* false */ as is_partition,
+	       pg_catalog.pg_get_partkeydef(T.oid) /* null */ as partition_key,
+	       pg_catalog.pg_get_expr(T.relpartbound, T.oid) /* null */ as partition_expression,
+	       T.relam am_id,
+	       pg_catalog.pg_get_userbyid(T.relowner) as "owner"
+	from pg_catalog.pg_class T
+	where relnamespace = $1::oid
+	       and relkind in ('r', 'm', 'v', 'f', 'p')
+	--  and pg_catalog.age(T.xmin) <= #TXAGE
+	--  and T.relname in ( :[*f_names] )
+	order by table_kind, table_id
+2025-07-16 15:08:47.401 GMT [java-guru] alex@java-guru 172.19.0.1 35 170: LOG:  duration: 15.600 ms  bind <unnamed>: select T.relkind as table_kind,
+	       T.relname as table_name,
+	       T.oid as table_id,
+	       T.xmin as table_state_number,
+	       false /* T.relhasoids */ as table_with_oids,
+	       T.reltablespace as tablespace_id,
+	       T.reloptions as options,
+	       T.relpersistence as persistence,
+	       (select pg_catalog.array_agg(inhparent::bigint order by inhseqno)::varchar from pg_catalog.pg_inherits where T.oid = inhrelid) as ancestors,
+	       (select pg_catalog.array_agg(inhrelid::bigint order by inhrelid)::varchar from pg_catalog.pg_inherits where T.oid = inhparent) as successors,
+	       T.relispartition /* false */ as is_partition,
+	       pg_catalog.pg_get_partkeydef(T.oid) /* null */ as partition_key,
+	       pg_catalog.pg_get_expr(T.relpartbound, T.oid) /* null */ as partition_expression,
+	       T.relam am_id,
+	       pg_catalog.pg_get_userbyid(T.relowner) as "owner"
+	from pg_catalog.pg_class T
+	where relnamespace = $1::oid
+	       and relkind in ('r', 'm', 'v', 'f', 'p')
+	--  and pg_catalog.age(T.xmin) <= #TXAGE
+	--  and T.relname in ( :[*f_names] )
+	order by table_kind, table_id
+2025-07-16 15:08:47.401 GMT [java-guru] alex@java-guru 172.19.0.1 35 171: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.401 GMT [java-guru] alex@java-guru 172.19.0.1 35 172: LOG:  execute <unnamed>: select T.relkind as table_kind,
+	       T.relname as table_name,
+	       T.oid as table_id,
+	       T.xmin as table_state_number,
+	       false /* T.relhasoids */ as table_with_oids,
+	       T.reltablespace as tablespace_id,
+	       T.reloptions as options,
+	       T.relpersistence as persistence,
+	       (select pg_catalog.array_agg(inhparent::bigint order by inhseqno)::varchar from pg_catalog.pg_inherits where T.oid = inhrelid) as ancestors,
+	       (select pg_catalog.array_agg(inhrelid::bigint order by inhrelid)::varchar from pg_catalog.pg_inherits where T.oid = inhparent) as successors,
+	       T.relispartition /* false */ as is_partition,
+	       pg_catalog.pg_get_partkeydef(T.oid) /* null */ as partition_key,
+	       pg_catalog.pg_get_expr(T.relpartbound, T.oid) /* null */ as partition_expression,
+	       T.relam am_id,
+	       pg_catalog.pg_get_userbyid(T.relowner) as "owner"
+	from pg_catalog.pg_class T
+	where relnamespace = $1::oid
+	       and relkind in ('r', 'm', 'v', 'f', 'p')
+	--  and pg_catalog.age(T.xmin) <= #TXAGE
+	--  and T.relname in ( :[*f_names] )
+	order by table_kind, table_id
+2025-07-16 15:08:47.401 GMT [java-guru] alex@java-guru 172.19.0.1 35 173: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.408 GMT [java-guru] alex@java-guru 172.19.0.1 35 174: LOG:  duration: 7.800 ms
+2025-07-16 15:08:47.417 GMT [java-guru] alex@java-guru 172.19.0.1 35 175: LOG:  duration: 0.225 ms  parse <unnamed>: select ft.ftrelid as table_id,
+	       srv.srvname as table_server,
+	       ft.ftoptions as table_options,
+	       pg_catalog.pg_get_userbyid(cls.relowner) as "owner"
+	from pg_catalog.pg_foreign_table ft
+	     left outer join pg_catalog.pg_foreign_server srv on ft.ftserver = srv.oid
+	     join pg_catalog.pg_class cls on ft.ftrelid = cls.oid
+	where cls.relnamespace = $1::oid
+	  --  and pg_catalog.age(ft.xmin) <= #TXAGE
+	  --  and cls.relname in ( :[*f_names] )
+	order by table_id
+2025-07-16 15:08:47.426 GMT [java-guru] alex@java-guru 172.19.0.1 35 176: LOG:  duration: 8.367 ms  bind <unnamed>: select ft.ftrelid as table_id,
+	       srv.srvname as table_server,
+	       ft.ftoptions as table_options,
+	       pg_catalog.pg_get_userbyid(cls.relowner) as "owner"
+	from pg_catalog.pg_foreign_table ft
+	     left outer join pg_catalog.pg_foreign_server srv on ft.ftserver = srv.oid
+	     join pg_catalog.pg_class cls on ft.ftrelid = cls.oid
+	where cls.relnamespace = $1::oid
+	  --  and pg_catalog.age(ft.xmin) <= #TXAGE
+	  --  and cls.relname in ( :[*f_names] )
+	order by table_id
+2025-07-16 15:08:47.426 GMT [java-guru] alex@java-guru 172.19.0.1 35 177: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.426 GMT [java-guru] alex@java-guru 172.19.0.1 35 178: LOG:  execute <unnamed>: select ft.ftrelid as table_id,
+	       srv.srvname as table_server,
+	       ft.ftoptions as table_options,
+	       pg_catalog.pg_get_userbyid(cls.relowner) as "owner"
+	from pg_catalog.pg_foreign_table ft
+	     left outer join pg_catalog.pg_foreign_server srv on ft.ftserver = srv.oid
+	     join pg_catalog.pg_class cls on ft.ftrelid = cls.oid
+	where cls.relnamespace = $1::oid
+	  --  and pg_catalog.age(ft.xmin) <= #TXAGE
+	  --  and cls.relname in ( :[*f_names] )
+	order by table_id
+2025-07-16 15:08:47.426 GMT [java-guru] alex@java-guru 172.19.0.1 35 179: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.426 GMT [java-guru] alex@java-guru 172.19.0.1 35 180: LOG:  duration: 0.028 ms
+2025-07-16 15:08:47.432 GMT [java-guru] alex@java-guru 172.19.0.1 35 181: LOG:  duration: 0.459 ms  parse <unnamed>: with schema_procs as (select prorettype, proargtypes, proallargtypes
+	                      from pg_catalog.pg_proc
+	                      where pronamespace = $1::oid
+	                        /* and pg_catalog.age(xmin) <= #TXAGE */ ),
+	     schema_opers as (select oprleft, oprright, oprresult
+	                      from pg_catalog.pg_operator
+	                      where oprnamespace = $2::oid
+	                        /* and pg_catalog.age(xmin) <= #TXAGE */ ),
+	     schema_aggregates as (select A.aggtranstype , A.aggmtranstype 
+	                           from pg_catalog.pg_aggregate A
+	                           join pg_catalog.pg_proc P
+	                             on A.aggfnoid = P.oid
+	                           where P.pronamespace = $3::oid
+	                           /* and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(P.xmin) <= #TXAGE) */),
+	     schema_arg_types as ( select prorettype as type_id
+	                           from schema_procs
+	                           union
+	                           select distinct unnest(proargtypes) as type_id
+	                           from schema_procs
+	                           union
+	                           select distinct unnest(proallargtypes) as type_id
+	                           from schema_procs
+	                           union
+	                           select oprleft as type_id
+	                           from schema_opers
+	                           where oprleft is not null
+	                           union
+	                           select oprright as type_id
+	                           from schema_opers
+	                           where oprright is not null
+	                           union
+	                           select oprresult as type_id
+	                           from schema_opers
+	                           where oprresult is not null
+	                           union
+	                           select aggtranstype::oid as type_id
+	                           from schema_aggregates
+	                           union
+	                           select aggmtranstype::oid as type_id
+	                           from schema_aggregates
+	                           
+	                           )
+	select type_id, pg_catalog.format_type(type_id, null) as type_spec
+	from schema_arg_types
+	where type_id <> 0 -- todo unclear how to frag
+2025-07-16 15:08:47.441 GMT [java-guru] alex@java-guru 172.19.0.1 35 182: LOG:  duration: 8.772 ms  bind <unnamed>: with schema_procs as (select prorettype, proargtypes, proallargtypes
+	                      from pg_catalog.pg_proc
+	                      where pronamespace = $1::oid
+	                        /* and pg_catalog.age(xmin) <= #TXAGE */ ),
+	     schema_opers as (select oprleft, oprright, oprresult
+	                      from pg_catalog.pg_operator
+	                      where oprnamespace = $2::oid
+	                        /* and pg_catalog.age(xmin) <= #TXAGE */ ),
+	     schema_aggregates as (select A.aggtranstype , A.aggmtranstype 
+	                           from pg_catalog.pg_aggregate A
+	                           join pg_catalog.pg_proc P
+	                             on A.aggfnoid = P.oid
+	                           where P.pronamespace = $3::oid
+	                           /* and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(P.xmin) <= #TXAGE) */),
+	     schema_arg_types as ( select prorettype as type_id
+	                           from schema_procs
+	                           union
+	                           select distinct unnest(proargtypes) as type_id
+	                           from schema_procs
+	                           union
+	                           select distinct unnest(proallargtypes) as type_id
+	                           from schema_procs
+	                           union
+	                           select oprleft as type_id
+	                           from schema_opers
+	                           where oprleft is not null
+	                           union
+	                           select oprright as type_id
+	                           from schema_opers
+	                           where oprright is not null
+	                           union
+	                           select oprresult as type_id
+	                           from schema_opers
+	                           where oprresult is not null
+	                           union
+	                           select aggtranstype::oid as type_id
+	                           from schema_aggregates
+	                           union
+	                           select aggmtranstype::oid as type_id
+	                           from schema_aggregates
+	                           
+	                           )
+	select type_id, pg_catalog.format_type(type_id, null) as type_spec
+	from schema_arg_types
+	where type_id <> 0 -- todo unclear how to frag
+2025-07-16 15:08:47.441 GMT [java-guru] alex@java-guru 172.19.0.1 35 183: DETAIL:  Parameters: $1 = '2200', $2 = '2200', $3 = '2200'
+2025-07-16 15:08:47.441 GMT [java-guru] alex@java-guru 172.19.0.1 35 184: LOG:  execute <unnamed>: with schema_procs as (select prorettype, proargtypes, proallargtypes
+	                      from pg_catalog.pg_proc
+	                      where pronamespace = $1::oid
+	                        /* and pg_catalog.age(xmin) <= #TXAGE */ ),
+	     schema_opers as (select oprleft, oprright, oprresult
+	                      from pg_catalog.pg_operator
+	                      where oprnamespace = $2::oid
+	                        /* and pg_catalog.age(xmin) <= #TXAGE */ ),
+	     schema_aggregates as (select A.aggtranstype , A.aggmtranstype 
+	                           from pg_catalog.pg_aggregate A
+	                           join pg_catalog.pg_proc P
+	                             on A.aggfnoid = P.oid
+	                           where P.pronamespace = $3::oid
+	                           /* and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(P.xmin) <= #TXAGE) */),
+	     schema_arg_types as ( select prorettype as type_id
+	                           from schema_procs
+	                           union
+	                           select distinct unnest(proargtypes) as type_id
+	                           from schema_procs
+	                           union
+	                           select distinct unnest(proallargtypes) as type_id
+	                           from schema_procs
+	                           union
+	                           select oprleft as type_id
+	                           from schema_opers
+	                           where oprleft is not null
+	                           union
+	                           select oprright as type_id
+	                           from schema_opers
+	                           where oprright is not null
+	                           union
+	                           select oprresult as type_id
+	                           from schema_opers
+	                           where oprresult is not null
+	                           union
+	                           select aggtranstype::oid as type_id
+	                           from schema_aggregates
+	                           union
+	                           select aggmtranstype::oid as type_id
+	                           from schema_aggregates
+	                           
+	                           )
+	select type_id, pg_catalog.format_type(type_id, null) as type_spec
+	from schema_arg_types
+	where type_id <> 0 -- todo unclear how to frag
+2025-07-16 15:08:47.441 GMT [java-guru] alex@java-guru 172.19.0.1 35 185: DETAIL:  Parameters: $1 = '2200', $2 = '2200', $3 = '2200'
+2025-07-16 15:08:47.442 GMT [java-guru] alex@java-guru 172.19.0.1 35 186: LOG:  duration: 0.604 ms
+2025-07-16 15:08:47.447 GMT [java-guru] alex@java-guru 172.19.0.1 35 187: LOG:  duration: 0.358 ms  parse <unnamed>: with languages as (select oid as lang_oid, lanname as lang
+	                   from pg_catalog.pg_language),
+	     routines as (select proname as r_name,
+	                         prolang as lang_oid,
+	                         oid as r_id,
+	                         xmin as r_state_number,
+	                         proargnames as arg_names,
+	                         proargmodes as arg_modes,
+	                         proargtypes::int[] as in_arg_types,
+	                         proallargtypes::int[] as all_arg_types,
+	                         pg_catalog.pg_get_expr(proargdefaults, 0) as arg_defaults,
+	                         provariadic as arg_variadic_id,
+	                         prorettype as ret_type_id,
+	                         proretset as ret_set,
+	                         prokind /* case when proiswindow then 'w'
+	                                                when proisagg then 'a'
+	                                                else 'f'
+	                                           end */ as kind,
+	                         provolatile as volatile_kind,
+	                         proisstrict as is_strict,
+	                         prosecdef as is_security_definer,
+	                         proconfig as configuration_parameters,
+	                         procost as cost,
+	                         pg_catalog.pg_get_userbyid(proowner) as "owner",
+	                         prorows as rows ,
+	                         proleakproof as is_leakproof  ,
+	                         proparallel as concurrency_kind 
+	                  from pg_catalog.pg_proc
+	                  where pronamespace = $1::oid
+	                    --  and proname in ( :[*f_names] )
+	                    and not (prokind = 'a') /* proisagg */
+	                    /* and pg_catalog.age(xmin) <= #TXAGE */)
+	select *
+	from routines natural join languages
+2025-07-16 15:08:47.456 GMT [java-guru] alex@java-guru 172.19.0.1 35 188: LOG:  duration: 8.859 ms  bind <unnamed>: with languages as (select oid as lang_oid, lanname as lang
+	                   from pg_catalog.pg_language),
+	     routines as (select proname as r_name,
+	                         prolang as lang_oid,
+	                         oid as r_id,
+	                         xmin as r_state_number,
+	                         proargnames as arg_names,
+	                         proargmodes as arg_modes,
+	                         proargtypes::int[] as in_arg_types,
+	                         proallargtypes::int[] as all_arg_types,
+	                         pg_catalog.pg_get_expr(proargdefaults, 0) as arg_defaults,
+	                         provariadic as arg_variadic_id,
+	                         prorettype as ret_type_id,
+	                         proretset as ret_set,
+	                         prokind /* case when proiswindow then 'w'
+	                                                when proisagg then 'a'
+	                                                else 'f'
+	                                           end */ as kind,
+	                         provolatile as volatile_kind,
+	                         proisstrict as is_strict,
+	                         prosecdef as is_security_definer,
+	                         proconfig as configuration_parameters,
+	                         procost as cost,
+	                         pg_catalog.pg_get_userbyid(proowner) as "owner",
+	                         prorows as rows ,
+	                         proleakproof as is_leakproof  ,
+	                         proparallel as concurrency_kind 
+	                  from pg_catalog.pg_proc
+	                  where pronamespace = $1::oid
+	                    --  and proname in ( :[*f_names] )
+	                    and not (prokind = 'a') /* proisagg */
+	                    /* and pg_catalog.age(xmin) <= #TXAGE */)
+	select *
+	from routines natural join languages
+2025-07-16 15:08:47.456 GMT [java-guru] alex@java-guru 172.19.0.1 35 189: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.456 GMT [java-guru] alex@java-guru 172.19.0.1 35 190: LOG:  execute <unnamed>: with languages as (select oid as lang_oid, lanname as lang
+	                   from pg_catalog.pg_language),
+	     routines as (select proname as r_name,
+	                         prolang as lang_oid,
+	                         oid as r_id,
+	                         xmin as r_state_number,
+	                         proargnames as arg_names,
+	                         proargmodes as arg_modes,
+	                         proargtypes::int[] as in_arg_types,
+	                         proallargtypes::int[] as all_arg_types,
+	                         pg_catalog.pg_get_expr(proargdefaults, 0) as arg_defaults,
+	                         provariadic as arg_variadic_id,
+	                         prorettype as ret_type_id,
+	                         proretset as ret_set,
+	                         prokind /* case when proiswindow then 'w'
+	                                                when proisagg then 'a'
+	                                                else 'f'
+	                                           end */ as kind,
+	                         provolatile as volatile_kind,
+	                         proisstrict as is_strict,
+	                         prosecdef as is_security_definer,
+	                         proconfig as configuration_parameters,
+	                         procost as cost,
+	                         pg_catalog.pg_get_userbyid(proowner) as "owner",
+	                         prorows as rows ,
+	                         proleakproof as is_leakproof  ,
+	                         proparallel as concurrency_kind 
+	                  from pg_catalog.pg_proc
+	                  where pronamespace = $1::oid
+	                    --  and proname in ( :[*f_names] )
+	                    and not (prokind = 'a') /* proisagg */
+	                    /* and pg_catalog.age(xmin) <= #TXAGE */)
+	select *
+	from routines natural join languages
+2025-07-16 15:08:47.456 GMT [java-guru] alex@java-guru 172.19.0.1 35 191: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.457 GMT [java-guru] alex@java-guru 172.19.0.1 35 192: LOG:  duration: 0.364 ms
+2025-07-16 15:08:47.464 GMT [java-guru] alex@java-guru 172.19.0.1 35 193: LOG:  duration: 0.389 ms  parse <unnamed>: select P.oid as aggregate_id,
+	       P.xmin as state_number,
+	       P.proname as aggregate_name,
+	       P.proargnames as arg_names,
+	       P.proargmodes as arg_modes,
+	       P.proargtypes::int[] as in_arg_types,
+	       P.proallargtypes::int[] as all_arg_types,
+	       A.aggtransfn::oid as transition_function_id,
+	       A.aggtransfn::regproc::text as transition_function_name,
+	       A.aggtranstype as transition_type,
+	       A.aggfinalfn::oid as final_function_id,
+	       case when A.aggfinalfn::oid = 0 then null else A.aggfinalfn::regproc::varchar end as final_function_name,
+	       case when A.aggfinalfn::oid = 0 then 0 else P.prorettype end as final_return_type,
+	       A.agginitval as initial_value,
+	       A.aggsortop as sort_operator_id,
+	       case when A.aggsortop = 0 then null else A.aggsortop::regoper::varchar end as sort_operator_name,
+	       pg_catalog.pg_get_userbyid(P.proowner) as "owner"
+	       ,
+	       A.aggfinalextra as final_extra,
+	       A.aggtransspace as state_size,
+	       A.aggmtransfn::oid as moving_transition_id,
+	       case when A.aggmtransfn::oid = 0 then null else A.aggmtransfn::regproc::varchar end as moving_transition_name,
+	       A.aggminvtransfn::oid as inverse_transition_id,
+	       case when A.aggminvtransfn::oid = 0 then null else A.aggminvtransfn::regproc::varchar end as inverse_transition_name,
+	       A.aggmtranstype::oid as moving_state_type,
+	       A.aggmtransspace as moving_state_size,
+	       A.aggmfinalfn::oid as moving_final_id,
+	       case when A.aggmfinalfn::oid = 0 then null else A.aggmfinalfn::regproc::varchar end as moving_final_name,
+	       A.aggmfinalextra as moving_final_extra,
+	       A.aggminitval as moving_initial_value,
+	       A.aggkind as aggregate_kind,
+	       A.aggnumdirectargs as direct_args
+	       
+	       ,
+	       A.aggcombinefn::oid as combine_function_id,
+	       case when A.aggcombinefn::oid = 0 then null else A.aggcombinefn::regproc::varchar end as combine_function_name,
+	       A.aggserialfn::oid as serialization_function_id,
+	       case when A.aggserialfn::oid = 0 then null else A.aggserialfn::regproc::varchar end as serialization_function_name,
+	       A.aggdeserialfn::oid as deserialization_function_id,
+	       case when A.aggdeserialfn::oid = 0 then null else A.aggdeserialfn::regproc::varchar end as deserialization_function_name,
+	       P.proparallel as concurrency_kind
+	       
+	from pg_catalog.pg_aggregate A
+	join pg_catalog.pg_proc P
+	  on A.aggfnoid = P.oid
+	where P.pronamespace = $1::oid
+	--  and P.proname in ( :[*f_names] )
+	--  and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(P.xmin) <= #TXAGE)
+	order by P.oid
+2025-07-16 15:08:47.464 GMT [java-guru] alex@java-guru 172.19.0.1 35 194: LOG:  duration: 0.557 ms  bind <unnamed>: select P.oid as aggregate_id,
+	       P.xmin as state_number,
+	       P.proname as aggregate_name,
+	       P.proargnames as arg_names,
+	       P.proargmodes as arg_modes,
+	       P.proargtypes::int[] as in_arg_types,
+	       P.proallargtypes::int[] as all_arg_types,
+	       A.aggtransfn::oid as transition_function_id,
+	       A.aggtransfn::regproc::text as transition_function_name,
+	       A.aggtranstype as transition_type,
+	       A.aggfinalfn::oid as final_function_id,
+	       case when A.aggfinalfn::oid = 0 then null else A.aggfinalfn::regproc::varchar end as final_function_name,
+	       case when A.aggfinalfn::oid = 0 then 0 else P.prorettype end as final_return_type,
+	       A.agginitval as initial_value,
+	       A.aggsortop as sort_operator_id,
+	       case when A.aggsortop = 0 then null else A.aggsortop::regoper::varchar end as sort_operator_name,
+	       pg_catalog.pg_get_userbyid(P.proowner) as "owner"
+	       ,
+	       A.aggfinalextra as final_extra,
+	       A.aggtransspace as state_size,
+	       A.aggmtransfn::oid as moving_transition_id,
+	       case when A.aggmtransfn::oid = 0 then null else A.aggmtransfn::regproc::varchar end as moving_transition_name,
+	       A.aggminvtransfn::oid as inverse_transition_id,
+	       case when A.aggminvtransfn::oid = 0 then null else A.aggminvtransfn::regproc::varchar end as inverse_transition_name,
+	       A.aggmtranstype::oid as moving_state_type,
+	       A.aggmtransspace as moving_state_size,
+	       A.aggmfinalfn::oid as moving_final_id,
+	       case when A.aggmfinalfn::oid = 0 then null else A.aggmfinalfn::regproc::varchar end as moving_final_name,
+	       A.aggmfinalextra as moving_final_extra,
+	       A.aggminitval as moving_initial_value,
+	       A.aggkind as aggregate_kind,
+	       A.aggnumdirectargs as direct_args
+	       
+	       ,
+	       A.aggcombinefn::oid as combine_function_id,
+	       case when A.aggcombinefn::oid = 0 then null else A.aggcombinefn::regproc::varchar end as combine_function_name,
+	       A.aggserialfn::oid as serialization_function_id,
+	       case when A.aggserialfn::oid = 0 then null else A.aggserialfn::regproc::varchar end as serialization_function_name,
+	       A.aggdeserialfn::oid as deserialization_function_id,
+	       case when A.aggdeserialfn::oid = 0 then null else A.aggdeserialfn::regproc::varchar end as deserialization_function_name,
+	       P.proparallel as concurrency_kind
+	       
+	from pg_catalog.pg_aggregate A
+	join pg_catalog.pg_proc P
+	  on A.aggfnoid = P.oid
+	where P.pronamespace = $1::oid
+	--  and P.proname in ( :[*f_names] )
+	--  and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(P.xmin) <= #TXAGE)
+	order by P.oid
+2025-07-16 15:08:47.464 GMT [java-guru] alex@java-guru 172.19.0.1 35 195: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.464 GMT [java-guru] alex@java-guru 172.19.0.1 35 196: LOG:  execute <unnamed>: select P.oid as aggregate_id,
+	       P.xmin as state_number,
+	       P.proname as aggregate_name,
+	       P.proargnames as arg_names,
+	       P.proargmodes as arg_modes,
+	       P.proargtypes::int[] as in_arg_types,
+	       P.proallargtypes::int[] as all_arg_types,
+	       A.aggtransfn::oid as transition_function_id,
+	       A.aggtransfn::regproc::text as transition_function_name,
+	       A.aggtranstype as transition_type,
+	       A.aggfinalfn::oid as final_function_id,
+	       case when A.aggfinalfn::oid = 0 then null else A.aggfinalfn::regproc::varchar end as final_function_name,
+	       case when A.aggfinalfn::oid = 0 then 0 else P.prorettype end as final_return_type,
+	       A.agginitval as initial_value,
+	       A.aggsortop as sort_operator_id,
+	       case when A.aggsortop = 0 then null else A.aggsortop::regoper::varchar end as sort_operator_name,
+	       pg_catalog.pg_get_userbyid(P.proowner) as "owner"
+	       ,
+	       A.aggfinalextra as final_extra,
+	       A.aggtransspace as state_size,
+	       A.aggmtransfn::oid as moving_transition_id,
+	       case when A.aggmtransfn::oid = 0 then null else A.aggmtransfn::regproc::varchar end as moving_transition_name,
+	       A.aggminvtransfn::oid as inverse_transition_id,
+	       case when A.aggminvtransfn::oid = 0 then null else A.aggminvtransfn::regproc::varchar end as inverse_transition_name,
+	       A.aggmtranstype::oid as moving_state_type,
+	       A.aggmtransspace as moving_state_size,
+	       A.aggmfinalfn::oid as moving_final_id,
+	       case when A.aggmfinalfn::oid = 0 then null else A.aggmfinalfn::regproc::varchar end as moving_final_name,
+	       A.aggmfinalextra as moving_final_extra,
+	       A.aggminitval as moving_initial_value,
+	       A.aggkind as aggregate_kind,
+	       A.aggnumdirectargs as direct_args
+	       
+	       ,
+	       A.aggcombinefn::oid as combine_function_id,
+	       case when A.aggcombinefn::oid = 0 then null else A.aggcombinefn::regproc::varchar end as combine_function_name,
+	       A.aggserialfn::oid as serialization_function_id,
+	       case when A.aggserialfn::oid = 0 then null else A.aggserialfn::regproc::varchar end as serialization_function_name,
+	       A.aggdeserialfn::oid as deserialization_function_id,
+	       case when A.aggdeserialfn::oid = 0 then null else A.aggdeserialfn::regproc::varchar end as deserialization_function_name,
+	       P.proparallel as concurrency_kind
+	       
+	from pg_catalog.pg_aggregate A
+	join pg_catalog.pg_proc P
+	  on A.aggfnoid = P.oid
+	where P.pronamespace = $1::oid
+	--  and P.proname in ( :[*f_names] )
+	--  and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(P.xmin) <= #TXAGE)
+	order by P.oid
+2025-07-16 15:08:47.464 GMT [java-guru] alex@java-guru 172.19.0.1 35 197: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.464 GMT [java-guru] alex@java-guru 172.19.0.1 35 198: LOG:  duration: 0.259 ms
+2025-07-16 15:08:47.470 GMT [java-guru] alex@java-guru 172.19.0.1 35 199: LOG:  duration: 0.191 ms  parse <unnamed>: select O.oid as op_id,
+	       O.xmin as state_number,
+	       oprname as op_name,
+	       oprkind as op_kind,
+	       oprleft as arg_left_type_id,
+	       oprright as arg_right_type_id,
+	       oprresult as arg_result_type_id,
+	       oprcode::oid as main_id,
+	       oprcode::varchar as main_name,
+	       oprrest::oid as restrict_id,
+	       oprrest::varchar as restrict_name,
+	       oprjoin::oid as join_id,
+	       oprjoin::varchar as join_name,
+	       oprcom::oid as com_id,
+	       oprcom::regoper::varchar as com_name,
+	       oprnegate::oid as neg_id,
+	       oprnegate::regoper::varchar as neg_name,
+	       oprcanmerge as merges,
+	       oprcanhash as hashes,
+	       pg_catalog.pg_get_userbyid(O.oprowner) as "owner"
+	from pg_catalog.pg_operator O
+	where oprnamespace = $1::oid
+	  --  and oprname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.471 GMT [java-guru] alex@java-guru 172.19.0.1 35 200: LOG:  duration: 0.561 ms  bind <unnamed>: select O.oid as op_id,
+	       O.xmin as state_number,
+	       oprname as op_name,
+	       oprkind as op_kind,
+	       oprleft as arg_left_type_id,
+	       oprright as arg_right_type_id,
+	       oprresult as arg_result_type_id,
+	       oprcode::oid as main_id,
+	       oprcode::varchar as main_name,
+	       oprrest::oid as restrict_id,
+	       oprrest::varchar as restrict_name,
+	       oprjoin::oid as join_id,
+	       oprjoin::varchar as join_name,
+	       oprcom::oid as com_id,
+	       oprcom::regoper::varchar as com_name,
+	       oprnegate::oid as neg_id,
+	       oprnegate::regoper::varchar as neg_name,
+	       oprcanmerge as merges,
+	       oprcanhash as hashes,
+	       pg_catalog.pg_get_userbyid(O.oprowner) as "owner"
+	from pg_catalog.pg_operator O
+	where oprnamespace = $1::oid
+	  --  and oprname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.471 GMT [java-guru] alex@java-guru 172.19.0.1 35 201: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.471 GMT [java-guru] alex@java-guru 172.19.0.1 35 202: LOG:  execute <unnamed>: select O.oid as op_id,
+	       O.xmin as state_number,
+	       oprname as op_name,
+	       oprkind as op_kind,
+	       oprleft as arg_left_type_id,
+	       oprright as arg_right_type_id,
+	       oprresult as arg_result_type_id,
+	       oprcode::oid as main_id,
+	       oprcode::varchar as main_name,
+	       oprrest::oid as restrict_id,
+	       oprrest::varchar as restrict_name,
+	       oprjoin::oid as join_id,
+	       oprjoin::varchar as join_name,
+	       oprcom::oid as com_id,
+	       oprcom::regoper::varchar as com_name,
+	       oprnegate::oid as neg_id,
+	       oprnegate::regoper::varchar as neg_name,
+	       oprcanmerge as merges,
+	       oprcanhash as hashes,
+	       pg_catalog.pg_get_userbyid(O.oprowner) as "owner"
+	from pg_catalog.pg_operator O
+	where oprnamespace = $1::oid
+	  --  and oprname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.471 GMT [java-guru] alex@java-guru 172.19.0.1 35 203: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.471 GMT [java-guru] alex@java-guru 172.19.0.1 35 204: LOG:  duration: 0.059 ms
+2025-07-16 15:08:47.476 GMT [java-guru] alex@java-guru 172.19.0.1 35 205: LOG:  duration: 0.180 ms  parse <unnamed>: select oid as id,
+	       xmin as state_number,
+	       collname as name,
+	       collcollate as lc_collate,
+	       collctype as lc_ctype,
+	       pg_catalog.pg_get_userbyid(collowner) as "owner"
+	from pg_catalog.pg_collation
+	where collnamespace = $1::oid
+	  --  and collname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.493 GMT [java-guru] alex@java-guru 172.19.0.1 35 206: LOG:  duration: 17.526 ms  bind <unnamed>: select oid as id,
+	       xmin as state_number,
+	       collname as name,
+	       collcollate as lc_collate,
+	       collctype as lc_ctype,
+	       pg_catalog.pg_get_userbyid(collowner) as "owner"
+	from pg_catalog.pg_collation
+	where collnamespace = $1::oid
+	  --  and collname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.493 GMT [java-guru] alex@java-guru 172.19.0.1 35 207: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.493 GMT [java-guru] alex@java-guru 172.19.0.1 35 208: LOG:  execute <unnamed>: select oid as id,
+	       xmin as state_number,
+	       collname as name,
+	       collcollate as lc_collate,
+	       collctype as lc_ctype,
+	       pg_catalog.pg_get_userbyid(collowner) as "owner"
+	from pg_catalog.pg_collation
+	where collnamespace = $1::oid
+	  --  and collname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.493 GMT [java-guru] alex@java-guru 172.19.0.1 35 209: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.494 GMT [java-guru] alex@java-guru 172.19.0.1 35 210: LOG:  duration: 1.113 ms
+2025-07-16 15:08:47.500 GMT [java-guru] alex@java-guru 172.19.0.1 35 211: LOG:  duration: 0.262 ms  parse <unnamed>: select O.oid as id,
+	       O.xmin as state_number,
+	       opcname as name,
+	       opcintype::regtype::varchar as in_type,
+	       case when opckeytype = 0 then null else opckeytype::regtype::varchar end as key_type,
+	       opcdefault as is_default,
+	       opcfamily as family_id,
+	       opfname as family,
+	       opcmethod as access_method_id,
+	       pg_catalog.pg_get_userbyid(O.opcowner) as "owner"
+	from pg_catalog.pg_opclass O join pg_catalog.pg_opfamily F on F.oid = opcfamily
+	where opcnamespace = $1::oid
+	  --  and opcname in ( :[*f_names] )
+	  --  and pg_catalog.age(O.xmin) <= #TXAGE
+2025-07-16 15:08:47.524 GMT [java-guru] alex@java-guru 172.19.0.1 35 212: LOG:  duration: 24.473 ms  bind <unnamed>: select O.oid as id,
+	       O.xmin as state_number,
+	       opcname as name,
+	       opcintype::regtype::varchar as in_type,
+	       case when opckeytype = 0 then null else opckeytype::regtype::varchar end as key_type,
+	       opcdefault as is_default,
+	       opcfamily as family_id,
+	       opfname as family,
+	       opcmethod as access_method_id,
+	       pg_catalog.pg_get_userbyid(O.opcowner) as "owner"
+	from pg_catalog.pg_opclass O join pg_catalog.pg_opfamily F on F.oid = opcfamily
+	where opcnamespace = $1::oid
+	  --  and opcname in ( :[*f_names] )
+	  --  and pg_catalog.age(O.xmin) <= #TXAGE
+2025-07-16 15:08:47.524 GMT [java-guru] alex@java-guru 172.19.0.1 35 213: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.524 GMT [java-guru] alex@java-guru 172.19.0.1 35 214: LOG:  execute <unnamed>: select O.oid as id,
+	       O.xmin as state_number,
+	       opcname as name,
+	       opcintype::regtype::varchar as in_type,
+	       case when opckeytype = 0 then null else opckeytype::regtype::varchar end as key_type,
+	       opcdefault as is_default,
+	       opcfamily as family_id,
+	       opfname as family,
+	       opcmethod as access_method_id,
+	       pg_catalog.pg_get_userbyid(O.opcowner) as "owner"
+	from pg_catalog.pg_opclass O join pg_catalog.pg_opfamily F on F.oid = opcfamily
+	where opcnamespace = $1::oid
+	  --  and opcname in ( :[*f_names] )
+	  --  and pg_catalog.age(O.xmin) <= #TXAGE
+2025-07-16 15:08:47.524 GMT [java-guru] alex@java-guru 172.19.0.1 35 215: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.525 GMT [java-guru] alex@java-guru 172.19.0.1 35 216: LOG:  duration: 0.226 ms
+2025-07-16 15:08:47.530 GMT [java-guru] alex@java-guru 172.19.0.1 35 217: LOG:  duration: 0.179 ms  parse <unnamed>: select O.oid as id,
+	       O.xmin as state_number,
+	       opfname as name,
+	       opfmethod as access_method_id,
+	       pg_catalog.pg_get_userbyid(O.opfowner) as "owner"
+	from pg_catalog.pg_opfamily O
+	where opfnamespace = $1::oid
+	  --  and opfname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.530 GMT [java-guru] alex@java-guru 172.19.0.1 35 218: LOG:  duration: 0.134 ms  bind <unnamed>: select O.oid as id,
+	       O.xmin as state_number,
+	       opfname as name,
+	       opfmethod as access_method_id,
+	       pg_catalog.pg_get_userbyid(O.opfowner) as "owner"
+	from pg_catalog.pg_opfamily O
+	where opfnamespace = $1::oid
+	  --  and opfname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.530 GMT [java-guru] alex@java-guru 172.19.0.1 35 219: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.530 GMT [java-guru] alex@java-guru 172.19.0.1 35 220: LOG:  execute <unnamed>: select O.oid as id,
+	       O.xmin as state_number,
+	       opfname as name,
+	       opfmethod as access_method_id,
+	       pg_catalog.pg_get_userbyid(O.opfowner) as "owner"
+	from pg_catalog.pg_opfamily O
+	where opfnamespace = $1::oid
+	  --  and opfname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #TXAGE
+2025-07-16 15:08:47.530 GMT [java-guru] alex@java-guru 172.19.0.1 35 221: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.530 GMT [java-guru] alex@java-guru 172.19.0.1 35 222: LOG:  duration: 0.022 ms
+2025-07-16 15:08:47.536 GMT [java-guru] alex@java-guru 172.19.0.1 35 223: LOG:  duration: 0.387 ms  parse <unnamed>: select O.oid as id,
+	       O.amopstrategy as strategy,
+	       O.amopopr as op_id,
+	       O.amopopr::regoperator::varchar as op_sig,
+	       O.amopsortfamily /* null */ as sort_family_id,
+	       SF.opfname /* null */ as sort_family,
+	       O.amopfamily as family_id,
+	       C.oid as class_id
+	from pg_catalog.pg_amop O
+	    left join pg_opfamily F on O.amopfamily = F.oid
+	    left join pg_opfamily SF on O.amopsortfamily = SF.oid
+	    left join pg_depend D on D.classid = 'pg_amop'::regclass and O.oid = D.objid and D.objsubid = 0
+	    left join pg_opclass C on D.refclassid = 'pg_opclass'::regclass and C.oid = D.refobjid and D.refobjsubid = 0
+	where C.opcnamespace = $1::oid or C.opcnamespace is null and F.opfnamespace = $2::oid
+	  --  and pg_catalog.age(O.xmin) <= #TXAGE
+	order by C.oid, F.oid
+2025-07-16 15:08:47.562 GMT [java-guru] alex@java-guru 172.19.0.1 35 224: LOG:  duration: 26.059 ms  bind <unnamed>: select O.oid as id,
+	       O.amopstrategy as strategy,
+	       O.amopopr as op_id,
+	       O.amopopr::regoperator::varchar as op_sig,
+	       O.amopsortfamily /* null */ as sort_family_id,
+	       SF.opfname /* null */ as sort_family,
+	       O.amopfamily as family_id,
+	       C.oid as class_id
+	from pg_catalog.pg_amop O
+	    left join pg_opfamily F on O.amopfamily = F.oid
+	    left join pg_opfamily SF on O.amopsortfamily = SF.oid
+	    left join pg_depend D on D.classid = 'pg_amop'::regclass and O.oid = D.objid and D.objsubid = 0
+	    left join pg_opclass C on D.refclassid = 'pg_opclass'::regclass and C.oid = D.refobjid and D.refobjsubid = 0
+	where C.opcnamespace = $1::oid or C.opcnamespace is null and F.opfnamespace = $2::oid
+	  --  and pg_catalog.age(O.xmin) <= #TXAGE
+	order by C.oid, F.oid
+2025-07-16 15:08:47.562 GMT [java-guru] alex@java-guru 172.19.0.1 35 225: DETAIL:  Parameters: $1 = '2200', $2 = '2200'
+2025-07-16 15:08:47.562 GMT [java-guru] alex@java-guru 172.19.0.1 35 226: LOG:  execute <unnamed>: select O.oid as id,
+	       O.amopstrategy as strategy,
+	       O.amopopr as op_id,
+	       O.amopopr::regoperator::varchar as op_sig,
+	       O.amopsortfamily /* null */ as sort_family_id,
+	       SF.opfname /* null */ as sort_family,
+	       O.amopfamily as family_id,
+	       C.oid as class_id
+	from pg_catalog.pg_amop O
+	    left join pg_opfamily F on O.amopfamily = F.oid
+	    left join pg_opfamily SF on O.amopsortfamily = SF.oid
+	    left join pg_depend D on D.classid = 'pg_amop'::regclass and O.oid = D.objid and D.objsubid = 0
+	    left join pg_opclass C on D.refclassid = 'pg_opclass'::regclass and C.oid = D.refobjid and D.refobjsubid = 0
+	where C.opcnamespace = $1::oid or C.opcnamespace is null and F.opfnamespace = $2::oid
+	  --  and pg_catalog.age(O.xmin) <= #TXAGE
+	order by C.oid, F.oid
+2025-07-16 15:08:47.562 GMT [java-guru] alex@java-guru 172.19.0.1 35 227: DETAIL:  Parameters: $1 = '2200', $2 = '2200'
+2025-07-16 15:08:47.563 GMT [java-guru] alex@java-guru 172.19.0.1 35 228: LOG:  duration: 0.815 ms
+2025-07-16 15:08:47.568 GMT [java-guru] alex@java-guru 172.19.0.1 35 229: LOG:  duration: 0.357 ms  parse <unnamed>: select P.oid as id,
+	       P.amprocnum as num,
+	       P.amproc::oid as proc_id,
+	       P.amproc::regprocedure::varchar as proc_sig,
+	       P.amproclefttype::regtype::varchar as left_type,
+	       P.amprocrighttype::regtype::varchar as right_type,
+	       P.amprocfamily as family_id,
+	       C.oid as class_id
+	from pg_catalog.pg_amproc P
+	    left join pg_opfamily F on P.amprocfamily = F.oid
+	    left join pg_depend D on D.classid = 'pg_amproc'::regclass and P.oid = D.objid and D.objsubid = 0
+	    left join pg_opclass C on D.refclassid = 'pg_opclass'::regclass and C.oid = D.refobjid and D.refobjsubid = 0
+	where C.opcnamespace = $1::oid or C.opcnamespace is null and F.opfnamespace = $2::oid
+	  --  and pg_catalog.age(P.xmin) <= #TXAGE
+	order by C.oid, F.oid
+2025-07-16 15:08:47.585 GMT [java-guru] alex@java-guru 172.19.0.1 35 230: LOG:  duration: 16.177 ms  bind <unnamed>: select P.oid as id,
+	       P.amprocnum as num,
+	       P.amproc::oid as proc_id,
+	       P.amproc::regprocedure::varchar as proc_sig,
+	       P.amproclefttype::regtype::varchar as left_type,
+	       P.amprocrighttype::regtype::varchar as right_type,
+	       P.amprocfamily as family_id,
+	       C.oid as class_id
+	from pg_catalog.pg_amproc P
+	    left join pg_opfamily F on P.amprocfamily = F.oid
+	    left join pg_depend D on D.classid = 'pg_amproc'::regclass and P.oid = D.objid and D.objsubid = 0
+	    left join pg_opclass C on D.refclassid = 'pg_opclass'::regclass and C.oid = D.refobjid and D.refobjsubid = 0
+	where C.opcnamespace = $1::oid or C.opcnamespace is null and F.opfnamespace = $2::oid
+	  --  and pg_catalog.age(P.xmin) <= #TXAGE
+	order by C.oid, F.oid
+2025-07-16 15:08:47.585 GMT [java-guru] alex@java-guru 172.19.0.1 35 231: DETAIL:  Parameters: $1 = '2200', $2 = '2200'
+2025-07-16 15:08:47.585 GMT [java-guru] alex@java-guru 172.19.0.1 35 232: LOG:  execute <unnamed>: select P.oid as id,
+	       P.amprocnum as num,
+	       P.amproc::oid as proc_id,
+	       P.amproc::regprocedure::varchar as proc_sig,
+	       P.amproclefttype::regtype::varchar as left_type,
+	       P.amprocrighttype::regtype::varchar as right_type,
+	       P.amprocfamily as family_id,
+	       C.oid as class_id
+	from pg_catalog.pg_amproc P
+	    left join pg_opfamily F on P.amprocfamily = F.oid
+	    left join pg_depend D on D.classid = 'pg_amproc'::regclass and P.oid = D.objid and D.objsubid = 0
+	    left join pg_opclass C on D.refclassid = 'pg_opclass'::regclass and C.oid = D.refobjid and D.refobjsubid = 0
+	where C.opcnamespace = $1::oid or C.opcnamespace is null and F.opfnamespace = $2::oid
+	  --  and pg_catalog.age(P.xmin) <= #TXAGE
+	order by C.oid, F.oid
+2025-07-16 15:08:47.585 GMT [java-guru] alex@java-guru 172.19.0.1 35 233: DETAIL:  Parameters: $1 = '2200', $2 = '2200'
+2025-07-16 15:08:47.585 GMT [java-guru] alex@java-guru 172.19.0.1 35 234: LOG:  duration: 0.192 ms
+2025-07-16 15:08:47.591 GMT [java-guru] alex@java-guru 172.19.0.1 35 235: LOG:  duration: 0.590 ms  parse <unnamed>: with T as ( select --  distinct
+	                  T.oid as table_id, T.relname as table_name
+	            from pg_catalog.pg_class T
+	                 --  , pg_catalog.pg_attribute A
+	            where T.relnamespace = $1::oid
+	              and T.relkind in ('r', 'm', 'v', 'f', 'p')
+	              --  and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(T.xmin) <= #TXAGE)
+	              --  and A.attrelid = T.oid
+	             --  and T.relname in ( :[*f_names] )
+	            )
+	select T.table_id,
+	       C.attnum as column_position,
+	       C.attname as column_name,
+	       C.xmin as column_state_number,
+	       C.atttypmod as type_mod,
+	       C.attndims as dimensions_number,
+	       pg_catalog.format_type(C.atttypid, C.atttypmod) as type_spec,
+	       C.atttypid as type_id,
+	       C.attnotnull as mandatory,
+	       pg_catalog.pg_get_expr(D.adbin, T.table_id) /* D.adsrc */ as column_default_expression,
+	       not C.attislocal as column_is_inherited,
+	       C.attfdwoptions as options,
+	       C.attisdropped as column_is_dropped,
+	       C.attidentity /* null */ as identity_kind,
+	       C.attgenerated /* null */ as generated
+	from T
+	  join pg_catalog.pg_attribute C on T.table_id = C.attrelid
+	  left join pg_catalog.pg_attrdef D on (C.attrelid, C.attnum) = (D.adrelid, D.adnum)
+	where attnum > 0
+	order by table_id, attnum
+2025-07-16 15:08:47.623 GMT [java-guru] alex@java-guru 172.19.0.1 35 236: LOG:  duration: 31.410 ms  bind <unnamed>: with T as ( select --  distinct
+	                  T.oid as table_id, T.relname as table_name
+	            from pg_catalog.pg_class T
+	                 --  , pg_catalog.pg_attribute A
+	            where T.relnamespace = $1::oid
+	              and T.relkind in ('r', 'm', 'v', 'f', 'p')
+	              --  and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(T.xmin) <= #TXAGE)
+	              --  and A.attrelid = T.oid
+	             --  and T.relname in ( :[*f_names] )
+	            )
+	select T.table_id,
+	       C.attnum as column_position,
+	       C.attname as column_name,
+	       C.xmin as column_state_number,
+	       C.atttypmod as type_mod,
+	       C.attndims as dimensions_number,
+	       pg_catalog.format_type(C.atttypid, C.atttypmod) as type_spec,
+	       C.atttypid as type_id,
+	       C.attnotnull as mandatory,
+	       pg_catalog.pg_get_expr(D.adbin, T.table_id) /* D.adsrc */ as column_default_expression,
+	       not C.attislocal as column_is_inherited,
+	       C.attfdwoptions as options,
+	       C.attisdropped as column_is_dropped,
+	       C.attidentity /* null */ as identity_kind,
+	       C.attgenerated /* null */ as generated
+	from T
+	  join pg_catalog.pg_attribute C on T.table_id = C.attrelid
+	  left join pg_catalog.pg_attrdef D on (C.attrelid, C.attnum) = (D.adrelid, D.adnum)
+	where attnum > 0
+	order by table_id, attnum
+2025-07-16 15:08:47.623 GMT [java-guru] alex@java-guru 172.19.0.1 35 237: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.623 GMT [java-guru] alex@java-guru 172.19.0.1 35 238: LOG:  execute <unnamed>: with T as ( select --  distinct
+	                  T.oid as table_id, T.relname as table_name
+	            from pg_catalog.pg_class T
+	                 --  , pg_catalog.pg_attribute A
+	            where T.relnamespace = $1::oid
+	              and T.relkind in ('r', 'm', 'v', 'f', 'p')
+	              --  and (pg_catalog.age(A.xmin) <= #TXAGE or pg_catalog.age(T.xmin) <= #TXAGE)
+	              --  and A.attrelid = T.oid
+	             --  and T.relname in ( :[*f_names] )
+	            )
+	select T.table_id,
+	       C.attnum as column_position,
+	       C.attname as column_name,
+	       C.xmin as column_state_number,
+	       C.atttypmod as type_mod,
+	       C.attndims as dimensions_number,
+	       pg_catalog.format_type(C.atttypid, C.atttypmod) as type_spec,
+	       C.atttypid as type_id,
+	       C.attnotnull as mandatory,
+	       pg_catalog.pg_get_expr(D.adbin, T.table_id) /* D.adsrc */ as column_default_expression,
+	       not C.attislocal as column_is_inherited,
+	       C.attfdwoptions as options,
+	       C.attisdropped as column_is_dropped,
+	       C.attidentity /* null */ as identity_kind,
+	       C.attgenerated /* null */ as generated
+	from T
+	  join pg_catalog.pg_attribute C on T.table_id = C.attrelid
+	  left join pg_catalog.pg_attrdef D on (C.attrelid, C.attnum) = (D.adrelid, D.adnum)
+	where attnum > 0
+	order by table_id, attnum
+2025-07-16 15:08:47.623 GMT [java-guru] alex@java-guru 172.19.0.1 35 239: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.623 GMT [java-guru] alex@java-guru 172.19.0.1 35 240: LOG:  duration: 0.142 ms
+2025-07-16 15:08:47.633 GMT [java-guru] alex@java-guru 172.19.0.1 35 241: LOG:  duration: 0.418 ms  parse <unnamed>: select tab.oid               table_id,
+	       tab.relkind           table_kind,
+	       ind_stor.relname      index_name,
+	       ind_head.indexrelid   index_id,
+	       ind_stor.xmin         state_number,
+	       ind_head.indisunique  is_unique,
+	       ind_head.indisprimary is_primary,
+	       ind_head.indnullsnotdistinct /* false */ nulls_not_distinct,
+	       pg_catalog.pg_get_expr(ind_head.indpred, ind_head.indrelid) as condition,
+	       (select pg_catalog.array_agg(inhparent::bigint order by inhseqno)::varchar from pg_catalog.pg_inherits where ind_stor.oid = inhrelid) as ancestors,
+	       ind_stor.reltablespace tablespace_id,
+	       opcmethod as access_method_id
+	from pg_catalog.pg_class tab
+	         join pg_catalog.pg_index ind_head
+	              on ind_head.indrelid = tab.oid
+	         join pg_catalog.pg_class ind_stor
+	              on tab.relnamespace = ind_stor.relnamespace and ind_stor.oid = ind_head.indexrelid
+	         left join pg_catalog.pg_opclass on pg_opclass.oid = ANY(indclass)
+	where tab.relnamespace = $1::oid
+	        and tab.relkind in ('r', 'm', 'v', 'p')
+	        and ind_stor.relkind in ('i', 'I')
+	--  and tab.relname in ( :[*f_names] )
+	--  and pg_catalog.age(ind_stor.xmin) <= #TXAGE
+2025-07-16 15:08:47.643 GMT [java-guru] alex@java-guru 172.19.0.1 35 242: LOG:  duration: 9.946 ms  bind <unnamed>: select tab.oid               table_id,
+	       tab.relkind           table_kind,
+	       ind_stor.relname      index_name,
+	       ind_head.indexrelid   index_id,
+	       ind_stor.xmin         state_number,
+	       ind_head.indisunique  is_unique,
+	       ind_head.indisprimary is_primary,
+	       ind_head.indnullsnotdistinct /* false */ nulls_not_distinct,
+	       pg_catalog.pg_get_expr(ind_head.indpred, ind_head.indrelid) as condition,
+	       (select pg_catalog.array_agg(inhparent::bigint order by inhseqno)::varchar from pg_catalog.pg_inherits where ind_stor.oid = inhrelid) as ancestors,
+	       ind_stor.reltablespace tablespace_id,
+	       opcmethod as access_method_id
+	from pg_catalog.pg_class tab
+	         join pg_catalog.pg_index ind_head
+	              on ind_head.indrelid = tab.oid
+	         join pg_catalog.pg_class ind_stor
+	              on tab.relnamespace = ind_stor.relnamespace and ind_stor.oid = ind_head.indexrelid
+	         left join pg_catalog.pg_opclass on pg_opclass.oid = ANY(indclass)
+	where tab.relnamespace = $1::oid
+	        and tab.relkind in ('r', 'm', 'v', 'p')
+	        and ind_stor.relkind in ('i', 'I')
+	--  and tab.relname in ( :[*f_names] )
+	--  and pg_catalog.age(ind_stor.xmin) <= #TXAGE
+2025-07-16 15:08:47.643 GMT [java-guru] alex@java-guru 172.19.0.1 35 243: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.643 GMT [java-guru] alex@java-guru 172.19.0.1 35 244: LOG:  execute <unnamed>: select tab.oid               table_id,
+	       tab.relkind           table_kind,
+	       ind_stor.relname      index_name,
+	       ind_head.indexrelid   index_id,
+	       ind_stor.xmin         state_number,
+	       ind_head.indisunique  is_unique,
+	       ind_head.indisprimary is_primary,
+	       ind_head.indnullsnotdistinct /* false */ nulls_not_distinct,
+	       pg_catalog.pg_get_expr(ind_head.indpred, ind_head.indrelid) as condition,
+	       (select pg_catalog.array_agg(inhparent::bigint order by inhseqno)::varchar from pg_catalog.pg_inherits where ind_stor.oid = inhrelid) as ancestors,
+	       ind_stor.reltablespace tablespace_id,
+	       opcmethod as access_method_id
+	from pg_catalog.pg_class tab
+	         join pg_catalog.pg_index ind_head
+	              on ind_head.indrelid = tab.oid
+	         join pg_catalog.pg_class ind_stor
+	              on tab.relnamespace = ind_stor.relnamespace and ind_stor.oid = ind_head.indexrelid
+	         left join pg_catalog.pg_opclass on pg_opclass.oid = ANY(indclass)
+	where tab.relnamespace = $1::oid
+	        and tab.relkind in ('r', 'm', 'v', 'p')
+	        and ind_stor.relkind in ('i', 'I')
+	--  and tab.relname in ( :[*f_names] )
+	--  and pg_catalog.age(ind_stor.xmin) <= #TXAGE
+2025-07-16 15:08:47.643 GMT [java-guru] alex@java-guru 172.19.0.1 35 245: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.643 GMT [java-guru] alex@java-guru 172.19.0.1 35 246: LOG:  duration: 0.199 ms
+2025-07-16 15:08:47.655 GMT [java-guru] alex@java-guru 172.19.0.1 35 247: LOG:  duration: 0.853 ms  parse <unnamed>: /* with T as (
+	  select T.oid as oid
+	  from pg_catalog.pg_class T
+	  where T.relnamespace = :schema_id::oid
+	    and T.relkind in ('r', 'm', 'v', 'p', 'f')
+	    and T.relname in ( :[*f_names] )
+	)
+	*/
+	select ind_head.indexrelid index_id,
+	       k col_idx,
+	       k <= indnkeyatts /* true */ in_key,
+	       ind_head.indkey[k-1] column_position,
+	       ind_head.indoption[k-1] column_options,
+	       ind_head.indcollation[k-1] /* null */ as collation,
+	       colln.nspname /* null */ as collation_schema,
+	       collname /* null */ as collation_str,
+	       ind_head.indclass[k-1] as opclass,
+	       case when opcdefault then null else opcn.nspname end as opclass_schema,
+	       case when opcdefault then null else opcname end as opclass_str,
+	       case
+	           when indexprs is null then null
+	           when ind_head.indkey[k-1] = 0 then chr(27) || pg_catalog.pg_get_indexdef(ind_head.indexrelid, k::int, true)
+	           else pg_catalog.pg_get_indexdef(ind_head.indexrelid, k::int, true)
+	       end as expression,
+	       amcanorder can_order
+	from pg_catalog.pg_index /* (select *, pg_catalog.generate_subscripts(indkey::int[], 1) + 1 k from pg_catalog.pg_index) */ ind_head
+	         join pg_catalog.pg_class ind_stor
+	              on ind_stor.oid = ind_head.indexrelid
+	cross join unnest(ind_head.indkey) with ordinality u(u, k)
+	left join pg_catalog.pg_collation
+	on pg_collation.oid = ind_head.indcollation[k-1]
+	left join pg_catalog.pg_namespace colln on collnamespace = colln.oid
+	cross join pg_catalog.pg_indexam_has_property(ind_stor.relam, 'can_order') amcanorder /* left join pg_catalog.pg_am am on ind_stor.relam = am.oid*/
+	         left join pg_catalog.pg_opclass
+	                   on pg_opclass.oid = ind_head.indclass[k-1]
+	         left join pg_catalog.pg_namespace opcn on opcnamespace = opcn.oid
+	  --  join T on ind_head.indrelid = T.oid
+	where ind_stor.relnamespace = $1::oid
+	  and ind_stor.relkind in ('i', 'I')
+	--  and pg_catalog.age(ind_stor.xmin) <= #TXAGE
+	order by index_id, k
+2025-07-16 15:08:47.657 GMT [java-guru] alex@java-guru 172.19.0.1 35 248: LOG:  duration: 1.437 ms  bind <unnamed>: /* with T as (
+	  select T.oid as oid
+	  from pg_catalog.pg_class T
+	  where T.relnamespace = :schema_id::oid
+	    and T.relkind in ('r', 'm', 'v', 'p', 'f')
+	    and T.relname in ( :[*f_names] )
+	)
+	*/
+	select ind_head.indexrelid index_id,
+	       k col_idx,
+	       k <= indnkeyatts /* true */ in_key,
+	       ind_head.indkey[k-1] column_position,
+	       ind_head.indoption[k-1] column_options,
+	       ind_head.indcollation[k-1] /* null */ as collation,
+	       colln.nspname /* null */ as collation_schema,
+	       collname /* null */ as collation_str,
+	       ind_head.indclass[k-1] as opclass,
+	       case when opcdefault then null else opcn.nspname end as opclass_schema,
+	       case when opcdefault then null else opcname end as opclass_str,
+	       case
+	           when indexprs is null then null
+	           when ind_head.indkey[k-1] = 0 then chr(27) || pg_catalog.pg_get_indexdef(ind_head.indexrelid, k::int, true)
+	           else pg_catalog.pg_get_indexdef(ind_head.indexrelid, k::int, true)
+	       end as expression,
+	       amcanorder can_order
+	from pg_catalog.pg_index /* (select *, pg_catalog.generate_subscripts(indkey::int[], 1) + 1 k from pg_catalog.pg_index) */ ind_head
+	         join pg_catalog.pg_class ind_stor
+	              on ind_stor.oid = ind_head.indexrelid
+	cross join unnest(ind_head.indkey) with ordinality u(u, k)
+	left join pg_catalog.pg_collation
+	on pg_collation.oid = ind_head.indcollation[k-1]
+	left join pg_catalog.pg_namespace colln on collnamespace = colln.oid
+	cross join pg_catalog.pg_indexam_has_property(ind_stor.relam, 'can_order') amcanorder /* left join pg_catalog.pg_am am on ind_stor.relam = am.oid*/
+	         left join pg_catalog.pg_opclass
+	                   on pg_opclass.oid = ind_head.indclass[k-1]
+	         left join pg_catalog.pg_namespace opcn on opcnamespace = opcn.oid
+	  --  join T on ind_head.indrelid = T.oid
+	where ind_stor.relnamespace = $1::oid
+	  and ind_stor.relkind in ('i', 'I')
+	--  and pg_catalog.age(ind_stor.xmin) <= #TXAGE
+	order by index_id, k
+2025-07-16 15:08:47.657 GMT [java-guru] alex@java-guru 172.19.0.1 35 249: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.657 GMT [java-guru] alex@java-guru 172.19.0.1 35 250: LOG:  execute <unnamed>: /* with T as (
+	  select T.oid as oid
+	  from pg_catalog.pg_class T
+	  where T.relnamespace = :schema_id::oid
+	    and T.relkind in ('r', 'm', 'v', 'p', 'f')
+	    and T.relname in ( :[*f_names] )
+	)
+	*/
+	select ind_head.indexrelid index_id,
+	       k col_idx,
+	       k <= indnkeyatts /* true */ in_key,
+	       ind_head.indkey[k-1] column_position,
+	       ind_head.indoption[k-1] column_options,
+	       ind_head.indcollation[k-1] /* null */ as collation,
+	       colln.nspname /* null */ as collation_schema,
+	       collname /* null */ as collation_str,
+	       ind_head.indclass[k-1] as opclass,
+	       case when opcdefault then null else opcn.nspname end as opclass_schema,
+	       case when opcdefault then null else opcname end as opclass_str,
+	       case
+	           when indexprs is null then null
+	           when ind_head.indkey[k-1] = 0 then chr(27) || pg_catalog.pg_get_indexdef(ind_head.indexrelid, k::int, true)
+	           else pg_catalog.pg_get_indexdef(ind_head.indexrelid, k::int, true)
+	       end as expression,
+	       amcanorder can_order
+	from pg_catalog.pg_index /* (select *, pg_catalog.generate_subscripts(indkey::int[], 1) + 1 k from pg_catalog.pg_index) */ ind_head
+	         join pg_catalog.pg_class ind_stor
+	              on ind_stor.oid = ind_head.indexrelid
+	cross join unnest(ind_head.indkey) with ordinality u(u, k)
+	left join pg_catalog.pg_collation
+	on pg_collation.oid = ind_head.indcollation[k-1]
+	left join pg_catalog.pg_namespace colln on collnamespace = colln.oid
+	cross join pg_catalog.pg_indexam_has_property(ind_stor.relam, 'can_order') amcanorder /* left join pg_catalog.pg_am am on ind_stor.relam = am.oid*/
+	         left join pg_catalog.pg_opclass
+	                   on pg_opclass.oid = ind_head.indclass[k-1]
+	         left join pg_catalog.pg_namespace opcn on opcnamespace = opcn.oid
+	  --  join T on ind_head.indrelid = T.oid
+	where ind_stor.relnamespace = $1::oid
+	  and ind_stor.relkind in ('i', 'I')
+	--  and pg_catalog.age(ind_stor.xmin) <= #TXAGE
+	order by index_id, k
+2025-07-16 15:08:47.657 GMT [java-guru] alex@java-guru 172.19.0.1 35 251: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.657 GMT [java-guru] alex@java-guru 172.19.0.1 35 252: LOG:  duration: 0.268 ms
+2025-07-16 15:08:47.665 GMT [java-guru] alex@java-guru 172.19.0.1 35 253: LOG:  duration: 0.343 ms  parse <unnamed>: select T.oid table_id,
+	       relkind table_kind,
+	       C.oid::bigint con_id,
+	       C.xmin::varchar::bigint con_state_id,
+	       conname con_name,
+	       contype con_kind,
+	       conkey con_columns,
+	       conindid index_id,
+	       confrelid ref_table_id,
+	       condeferrable is_deferrable,
+	       condeferred is_init_deferred,
+	       confupdtype on_update,
+	       confdeltype on_delete,
+	      connoinherit no_inherit,
+	      pg_catalog.pg_get_expr(conbin, T.oid) /* consrc */ con_expression,
+	       confkey ref_columns,
+	       conexclop::int[] excl_operators,
+	       array(select unnest::regoper::varchar from unnest(conexclop)) excl_operators_str
+	from pg_catalog.pg_constraint C
+	         join pg_catalog.pg_class T
+	              on C.conrelid = T.oid
+	   where relkind in ('r', 'v', 'f', 'p')
+	     and relnamespace = $1::oid
+	     and contype in ('p', 'u', 'f', 'c', 'x')
+	     and connamespace = $2::oid
+	--  and pg_catalog.age(T.xmin) <= #TXAGE or pg_catalog.age(c.xmin) <= #TXAGE
+2025-07-16 15:08:47.719 GMT [java-guru] alex@java-guru 172.19.0.1 35 254: LOG:  duration: 53.208 ms  bind <unnamed>: select T.oid table_id,
+	       relkind table_kind,
+	       C.oid::bigint con_id,
+	       C.xmin::varchar::bigint con_state_id,
+	       conname con_name,
+	       contype con_kind,
+	       conkey con_columns,
+	       conindid index_id,
+	       confrelid ref_table_id,
+	       condeferrable is_deferrable,
+	       condeferred is_init_deferred,
+	       confupdtype on_update,
+	       confdeltype on_delete,
+	      connoinherit no_inherit,
+	      pg_catalog.pg_get_expr(conbin, T.oid) /* consrc */ con_expression,
+	       confkey ref_columns,
+	       conexclop::int[] excl_operators,
+	       array(select unnest::regoper::varchar from unnest(conexclop)) excl_operators_str
+	from pg_catalog.pg_constraint C
+	         join pg_catalog.pg_class T
+	              on C.conrelid = T.oid
+	   where relkind in ('r', 'v', 'f', 'p')
+	     and relnamespace = $1::oid
+	     and contype in ('p', 'u', 'f', 'c', 'x')
+	     and connamespace = $2::oid
+	--  and pg_catalog.age(T.xmin) <= #TXAGE or pg_catalog.age(c.xmin) <= #TXAGE
+2025-07-16 15:08:47.719 GMT [java-guru] alex@java-guru 172.19.0.1 35 255: DETAIL:  Parameters: $1 = '2200', $2 = '2200'
+2025-07-16 15:08:47.719 GMT [java-guru] alex@java-guru 172.19.0.1 35 256: LOG:  execute <unnamed>: select T.oid table_id,
+	       relkind table_kind,
+	       C.oid::bigint con_id,
+	       C.xmin::varchar::bigint con_state_id,
+	       conname con_name,
+	       contype con_kind,
+	       conkey con_columns,
+	       conindid index_id,
+	       confrelid ref_table_id,
+	       condeferrable is_deferrable,
+	       condeferred is_init_deferred,
+	       confupdtype on_update,
+	       confdeltype on_delete,
+	      connoinherit no_inherit,
+	      pg_catalog.pg_get_expr(conbin, T.oid) /* consrc */ con_expression,
+	       confkey ref_columns,
+	       conexclop::int[] excl_operators,
+	       array(select unnest::regoper::varchar from unnest(conexclop)) excl_operators_str
+	from pg_catalog.pg_constraint C
+	         join pg_catalog.pg_class T
+	              on C.conrelid = T.oid
+	   where relkind in ('r', 'v', 'f', 'p')
+	     and relnamespace = $1::oid
+	     and contype in ('p', 'u', 'f', 'c', 'x')
+	     and connamespace = $2::oid
+	--  and pg_catalog.age(T.xmin) <= #TXAGE or pg_catalog.age(c.xmin) <= #TXAGE
+2025-07-16 15:08:47.719 GMT [java-guru] alex@java-guru 172.19.0.1 35 257: DETAIL:  Parameters: $1 = '2200', $2 = '2200'
+2025-07-16 15:08:47.719 GMT [java-guru] alex@java-guru 172.19.0.1 35 258: LOG:  duration: 0.464 ms
+2025-07-16 15:08:47.727 GMT [java-guru] alex@java-guru 172.19.0.1 35 259: LOG:  duration: 0.547 ms  parse <unnamed>: select R.ev_class as table_id,
+	       R.oid as rule_id,
+	       R.xmin as rule_state_number,
+	       R.rulename as rule_name,
+	       pg_catalog.translate(ev_type,'1234','SUID') as rule_event_code,
+	       R.ev_enabled as rule_fire_mode,
+	       R.is_instead as rule_is_instead
+	from pg_catalog.pg_rewrite R
+	where R.ev_class in (
+	  select oid
+	  from pg_catalog.pg_class
+	  where relnamespace = $1::oid
+	--  and relname in ( :[*f_names] )
+	)
+	  --  and pg_catalog.age(R.xmin) <= #TXAGE
+	  and R.rulename != '_RETURN'::name
+	order by R.ev_class::bigint, ev_type
+2025-07-16 15:08:47.742 GMT [java-guru] alex@java-guru 172.19.0.1 35 260: LOG:  duration: 14.330 ms  bind <unnamed>: select R.ev_class as table_id,
+	       R.oid as rule_id,
+	       R.xmin as rule_state_number,
+	       R.rulename as rule_name,
+	       pg_catalog.translate(ev_type,'1234','SUID') as rule_event_code,
+	       R.ev_enabled as rule_fire_mode,
+	       R.is_instead as rule_is_instead
+	from pg_catalog.pg_rewrite R
+	where R.ev_class in (
+	  select oid
+	  from pg_catalog.pg_class
+	  where relnamespace = $1::oid
+	--  and relname in ( :[*f_names] )
+	)
+	  --  and pg_catalog.age(R.xmin) <= #TXAGE
+	  and R.rulename != '_RETURN'::name
+	order by R.ev_class::bigint, ev_type
+2025-07-16 15:08:47.742 GMT [java-guru] alex@java-guru 172.19.0.1 35 261: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.742 GMT [java-guru] alex@java-guru 172.19.0.1 35 262: LOG:  execute <unnamed>: select R.ev_class as table_id,
+	       R.oid as rule_id,
+	       R.xmin as rule_state_number,
+	       R.rulename as rule_name,
+	       pg_catalog.translate(ev_type,'1234','SUID') as rule_event_code,
+	       R.ev_enabled as rule_fire_mode,
+	       R.is_instead as rule_is_instead
+	from pg_catalog.pg_rewrite R
+	where R.ev_class in (
+	  select oid
+	  from pg_catalog.pg_class
+	  where relnamespace = $1::oid
+	--  and relname in ( :[*f_names] )
+	)
+	  --  and pg_catalog.age(R.xmin) <= #TXAGE
+	  and R.rulename != '_RETURN'::name
+	order by R.ev_class::bigint, ev_type
+2025-07-16 15:08:47.742 GMT [java-guru] alex@java-guru 172.19.0.1 35 263: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.742 GMT [java-guru] alex@java-guru 172.19.0.1 35 264: LOG:  duration: 0.066 ms
+2025-07-16 15:08:47.747 GMT [java-guru] alex@java-guru 172.19.0.1 35 265: LOG:  duration: 0.219 ms  parse <unnamed>: select
+	       P.oid id,
+	       P.xmin as state_number,
+	       polname policyname,
+	       polrelid table_id,
+	       polpermissive /* true */ as permissive,
+	       polroles roles,
+	       polcmd cmd,
+	       pg_get_expr(polqual, polrelid) qual,
+	       pg_get_expr(polwithcheck, polrelid) with_check
+	from pg_catalog.pg_policy P
+	       join pg_catalog.pg_class C on polrelid = C.oid
+	where relnamespace = $1::oid
+	  --  and C.relname in ( :[*f_names] )
+	  --  and pg_catalog.age(P.xmin) <= #TXAGE
+	order by polrelid
+2025-07-16 15:08:47.761 GMT [java-guru] alex@java-guru 172.19.0.1 35 266: LOG:  duration: 13.887 ms  bind <unnamed>: select
+	       P.oid id,
+	       P.xmin as state_number,
+	       polname policyname,
+	       polrelid table_id,
+	       polpermissive /* true */ as permissive,
+	       polroles roles,
+	       polcmd cmd,
+	       pg_get_expr(polqual, polrelid) qual,
+	       pg_get_expr(polwithcheck, polrelid) with_check
+	from pg_catalog.pg_policy P
+	       join pg_catalog.pg_class C on polrelid = C.oid
+	where relnamespace = $1::oid
+	  --  and C.relname in ( :[*f_names] )
+	  --  and pg_catalog.age(P.xmin) <= #TXAGE
+	order by polrelid
+2025-07-16 15:08:47.761 GMT [java-guru] alex@java-guru 172.19.0.1 35 267: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.761 GMT [java-guru] alex@java-guru 172.19.0.1 35 268: LOG:  execute <unnamed>: select
+	       P.oid id,
+	       P.xmin as state_number,
+	       polname policyname,
+	       polrelid table_id,
+	       polpermissive /* true */ as permissive,
+	       polroles roles,
+	       polcmd cmd,
+	       pg_get_expr(polqual, polrelid) qual,
+	       pg_get_expr(polwithcheck, polrelid) with_check
+	from pg_catalog.pg_policy P
+	       join pg_catalog.pg_class C on polrelid = C.oid
+	where relnamespace = $1::oid
+	  --  and C.relname in ( :[*f_names] )
+	  --  and pg_catalog.age(P.xmin) <= #TXAGE
+	order by polrelid
+2025-07-16 15:08:47.761 GMT [java-guru] alex@java-guru 172.19.0.1 35 269: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.761 GMT [java-guru] alex@java-guru 172.19.0.1 35 270: LOG:  duration: 0.029 ms
+2025-07-16 15:08:47.767 GMT [java-guru] alex@java-guru 172.19.0.1 35 271: LOG:  duration: 0.583 ms  parse <unnamed>: select T.tgrelid as table_id,
+	       T.oid as trigger_id,
+	       T.xmin as trigger_state_number,
+	       T.tgname as trigger_name,
+	       T.tgfoid as function_id,
+	       pg_catalog.encode(T.tgargs, 'escape') as function_args,
+	       T.tgtype as bits,
+	       T.tgdeferrable as is_deferrable,
+	       T.tginitdeferred as is_init_deferred,
+	       T.tgenabled as trigger_fire_mode,
+	       T.tgattr as columns,
+	       T.tgconstraint != 0 as is_constraint,
+	       T.tgoldtable /* null */ as old_table_name,
+	       T.tgnewtable /* null */ as new_table_name,
+	       pg_catalog.pg_get_triggerdef(T.oid, true) as source_code
+	from pg_catalog.pg_trigger T
+	join pg_catalog.pg_class TAB on TAB.oid = T.tgrelid and TAB.relnamespace = $1::oid
+	where true
+	  --  and TAB.relname in ( :[*f_names] )
+	  --  and pg_catalog.age(T.xmin) <= #TXAGE
+	  and not T.tgisinternal
+2025-07-16 15:08:47.788 GMT [java-guru] alex@java-guru 172.19.0.1 35 272: LOG:  duration: 20.432 ms  bind <unnamed>: select T.tgrelid as table_id,
+	       T.oid as trigger_id,
+	       T.xmin as trigger_state_number,
+	       T.tgname as trigger_name,
+	       T.tgfoid as function_id,
+	       pg_catalog.encode(T.tgargs, 'escape') as function_args,
+	       T.tgtype as bits,
+	       T.tgdeferrable as is_deferrable,
+	       T.tginitdeferred as is_init_deferred,
+	       T.tgenabled as trigger_fire_mode,
+	       T.tgattr as columns,
+	       T.tgconstraint != 0 as is_constraint,
+	       T.tgoldtable /* null */ as old_table_name,
+	       T.tgnewtable /* null */ as new_table_name,
+	       pg_catalog.pg_get_triggerdef(T.oid, true) as source_code
+	from pg_catalog.pg_trigger T
+	join pg_catalog.pg_class TAB on TAB.oid = T.tgrelid and TAB.relnamespace = $1::oid
+	where true
+	  --  and TAB.relname in ( :[*f_names] )
+	  --  and pg_catalog.age(T.xmin) <= #TXAGE
+	  and not T.tgisinternal
+2025-07-16 15:08:47.788 GMT [java-guru] alex@java-guru 172.19.0.1 35 273: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.788 GMT [java-guru] alex@java-guru 172.19.0.1 35 274: LOG:  execute <unnamed>: select T.tgrelid as table_id,
+	       T.oid as trigger_id,
+	       T.xmin as trigger_state_number,
+	       T.tgname as trigger_name,
+	       T.tgfoid as function_id,
+	       pg_catalog.encode(T.tgargs, 'escape') as function_args,
+	       T.tgtype as bits,
+	       T.tgdeferrable as is_deferrable,
+	       T.tginitdeferred as is_init_deferred,
+	       T.tgenabled as trigger_fire_mode,
+	       T.tgattr as columns,
+	       T.tgconstraint != 0 as is_constraint,
+	       T.tgoldtable /* null */ as old_table_name,
+	       T.tgnewtable /* null */ as new_table_name,
+	       pg_catalog.pg_get_triggerdef(T.oid, true) as source_code
+	from pg_catalog.pg_trigger T
+	join pg_catalog.pg_class TAB on TAB.oid = T.tgrelid and TAB.relnamespace = $1::oid
+	where true
+	  --  and TAB.relname in ( :[*f_names] )
+	  --  and pg_catalog.age(T.xmin) <= #TXAGE
+	  and not T.tgisinternal
+2025-07-16 15:08:47.788 GMT [java-guru] alex@java-guru 172.19.0.1 35 275: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.788 GMT [java-guru] alex@java-guru 172.19.0.1 35 276: LOG:  duration: 0.026 ms
+2025-07-16 15:08:47.795 GMT [java-guru] alex@java-guru 172.19.0.1 35 277: LOG:  duration: 0.549 ms  parse <unnamed>: select D.objoid id, C.relkind::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_class C on D.objoid = C.oid
+	where C.relnamespace = $1::oid and C.relkind != 'c' and D.classoid = 'pg_catalog.pg_class'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- all table-like things + seqs + iets anders?
+	union all
+	select T.oid id, 'T'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_type T on T.oid = D.objoid or T.typrelid = D.objoid
+	  left join pg_catalog.pg_class C on T.typrelid = C.oid
+	where T.typnamespace = $2::oid and (C.relkind = 'c' or C.relkind is null)
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- relkind = c (composite types?)
+	union all
+	select D.objoid id, pg_catalog.translate(C.contype, 'pufc', 'kkxz')::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_constraint C on D.objoid = C.oid
+	where C.connamespace = $3::oid and D.classoid = 'pg_catalog.pg_constraint'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- table constraints
+	union all
+	select D.objoid id, 't'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_trigger T on T.oid = D.objoid
+	  join pg_catalog.pg_class C on C.oid = T.tgrelid
+	where C.relnamespace = $4::oid and D.classoid = 'pg_catalog.pg_trigger'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- triggers
+	union all
+	select D.objoid id, 'R'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_rewrite R on R.oid = D.objoid
+	  join pg_catalog.pg_class C on C.oid = R.ev_class
+	where C.relnamespace = $5::oid and D.classoid = 'pg_catalog.pg_rewrite'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- rules
+	union all
+	select D.objoid id, 'F'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_proc P on P.oid = D.objoid
+	where P.pronamespace = $6::oid and D.classoid = 'pg_catalog.pg_proc'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- more routines
+	union all
+	select D.objoid id, 'O'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_operator O on O.oid = D.objoid
+	where O.oprnamespace = $7::oid and D.classoid = 'pg_catalog.pg_operator'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- operators
+	union all
+	select D.objoid id, 'f'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_opfamily O on O.oid = D.objoid
+	where O.opfnamespace = $8::oid and D.classoid = 'pg_catalog.pg_opfamily'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- op families
+	union all
+	select D.objoid id, 'c'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_opclass O on O.oid = D.objoid
+	where O.opcnamespace = $9::oid and D.classoid = 'pg_catalog.pg_opclass'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- op class
+	  union all
+	select D.objoid id, 'C'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_collation C on C.oid = D.objoid
+	where C.collnamespace = $10::oid and D.classoid = 'pg_catalog.pg_collation'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	
+	-- collations
+	  union all
+	select D.objoid id, 'P'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	       join pg_catalog.pg_policy P on P.oid = D.objoid
+	       join pg_catalog.pg_class C on P.polrelid = C.oid
+	where C.relnamespace = $11::oid and D.classoid = 'pg_catalog.pg_policy'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	
+	-- security policies (also by table name...)
+2025-07-16 15:08:47.813 GMT [java-guru] alex@java-guru 172.19.0.1 35 278: LOG:  duration: 17.739 ms  bind <unnamed>: select D.objoid id, C.relkind::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_class C on D.objoid = C.oid
+	where C.relnamespace = $1::oid and C.relkind != 'c' and D.classoid = 'pg_catalog.pg_class'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- all table-like things + seqs + iets anders?
+	union all
+	select T.oid id, 'T'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_type T on T.oid = D.objoid or T.typrelid = D.objoid
+	  left join pg_catalog.pg_class C on T.typrelid = C.oid
+	where T.typnamespace = $2::oid and (C.relkind = 'c' or C.relkind is null)
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- relkind = c (composite types?)
+	union all
+	select D.objoid id, pg_catalog.translate(C.contype, 'pufc', 'kkxz')::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_constraint C on D.objoid = C.oid
+	where C.connamespace = $3::oid and D.classoid = 'pg_catalog.pg_constraint'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- table constraints
+	union all
+	select D.objoid id, 't'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_trigger T on T.oid = D.objoid
+	  join pg_catalog.pg_class C on C.oid = T.tgrelid
+	where C.relnamespace = $4::oid and D.classoid = 'pg_catalog.pg_trigger'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- triggers
+	union all
+	select D.objoid id, 'R'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_rewrite R on R.oid = D.objoid
+	  join pg_catalog.pg_class C on C.oid = R.ev_class
+	where C.relnamespace = $5::oid and D.classoid = 'pg_catalog.pg_rewrite'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- rules
+	union all
+	select D.objoid id, 'F'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_proc P on P.oid = D.objoid
+	where P.pronamespace = $6::oid and D.classoid = 'pg_catalog.pg_proc'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- more routines
+	union all
+	select D.objoid id, 'O'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_operator O on O.oid = D.objoid
+	where O.oprnamespace = $7::oid and D.classoid = 'pg_catalog.pg_operator'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- operators
+	union all
+	select D.objoid id, 'f'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_opfamily O on O.oid = D.objoid
+	where O.opfnamespace = $8::oid and D.classoid = 'pg_catalog.pg_opfamily'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- op families
+	union all
+	select D.objoid id, 'c'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_opclass O on O.oid = D.objoid
+	where O.opcnamespace = $9::oid and D.classoid = 'pg_catalog.pg_opclass'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- op class
+	  union all
+	select D.objoid id, 'C'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_collation C on C.oid = D.objoid
+	where C.collnamespace = $10::oid and D.classoid = 'pg_catalog.pg_collation'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	
+	-- collations
+	  union all
+	select D.objoid id, 'P'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	       join pg_catalog.pg_policy P on P.oid = D.objoid
+	       join pg_catalog.pg_class C on P.polrelid = C.oid
+	where C.relnamespace = $11::oid and D.classoid = 'pg_catalog.pg_policy'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	
+	-- security policies (also by table name...)
+2025-07-16 15:08:47.813 GMT [java-guru] alex@java-guru 172.19.0.1 35 279: DETAIL:  Parameters: $1 = '2200', $2 = '2200', $3 = '2200', $4 = '2200', $5 = '2200', $6 = '2200', $7 = '2200', $8 = '2200', $9 = '2200', $10 = '2200', $11 = '2200'
+2025-07-16 15:08:47.813 GMT [java-guru] alex@java-guru 172.19.0.1 35 280: LOG:  execute <unnamed>: select D.objoid id, C.relkind::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_class C on D.objoid = C.oid
+	where C.relnamespace = $1::oid and C.relkind != 'c' and D.classoid = 'pg_catalog.pg_class'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- all table-like things + seqs + iets anders?
+	union all
+	select T.oid id, 'T'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_type T on T.oid = D.objoid or T.typrelid = D.objoid
+	  left join pg_catalog.pg_class C on T.typrelid = C.oid
+	where T.typnamespace = $2::oid and (C.relkind = 'c' or C.relkind is null)
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- relkind = c (composite types?)
+	union all
+	select D.objoid id, pg_catalog.translate(C.contype, 'pufc', 'kkxz')::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_constraint C on D.objoid = C.oid
+	where C.connamespace = $3::oid and D.classoid = 'pg_catalog.pg_constraint'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- table constraints
+	union all
+	select D.objoid id, 't'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_trigger T on T.oid = D.objoid
+	  join pg_catalog.pg_class C on C.oid = T.tgrelid
+	where C.relnamespace = $4::oid and D.classoid = 'pg_catalog.pg_trigger'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- triggers
+	union all
+	select D.objoid id, 'R'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_rewrite R on R.oid = D.objoid
+	  join pg_catalog.pg_class C on C.oid = R.ev_class
+	where C.relnamespace = $5::oid and D.classoid = 'pg_catalog.pg_rewrite'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- rules
+	union all
+	select D.objoid id, 'F'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_proc P on P.oid = D.objoid
+	where P.pronamespace = $6::oid and D.classoid = 'pg_catalog.pg_proc'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- more routines
+	union all
+	select D.objoid id, 'O'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_operator O on O.oid = D.objoid
+	where O.oprnamespace = $7::oid and D.classoid = 'pg_catalog.pg_operator'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- operators
+	union all
+	select D.objoid id, 'f'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_opfamily O on O.oid = D.objoid
+	where O.opfnamespace = $8::oid and D.classoid = 'pg_catalog.pg_opfamily'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- op families
+	union all
+	select D.objoid id, 'c'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_opclass O on O.oid = D.objoid
+	where O.opcnamespace = $9::oid and D.classoid = 'pg_catalog.pg_opclass'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	-- op class
+	  union all
+	select D.objoid id, 'C'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	  join pg_catalog.pg_collation C on C.oid = D.objoid
+	where C.collnamespace = $10::oid and D.classoid = 'pg_catalog.pg_collation'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	
+	-- collations
+	  union all
+	select D.objoid id, 'P'::char as kind, D.objsubid sub_id, D.description
+	from pg_catalog.pg_description D
+	       join pg_catalog.pg_policy P on P.oid = D.objoid
+	       join pg_catalog.pg_class C on P.polrelid = C.oid
+	where C.relnamespace = $11::oid and D.classoid = 'pg_catalog.pg_policy'::regclass
+	--  and pg_catalog.age(D.xmin) <= #TXAGE
+	
+	-- security policies (also by table name...)
+2025-07-16 15:08:47.813 GMT [java-guru] alex@java-guru 172.19.0.1 35 281: DETAIL:  Parameters: $1 = '2200', $2 = '2200', $3 = '2200', $4 = '2200', $5 = '2200', $6 = '2200', $7 = '2200', $8 = '2200', $9 = '2200', $10 = '2200', $11 = '2200'
+2025-07-16 15:08:47.813 GMT [java-guru] alex@java-guru 172.19.0.1 35 282: LOG:  duration: 0.540 ms
+2025-07-16 15:08:47.819 GMT [java-guru] alex@java-guru 172.19.0.1 35 283: LOG:  duration: 0.164 ms  parse <unnamed>: select T.oid as object_id,
+	                 T.relacl as acl
+	          from pg_catalog.pg_class T
+	          where relnamespace = $1::oid 
+	          union all
+	          select T.oid as object_id,
+	                 T.proacl as acl
+	          from pg_catalog.pg_proc T
+	          where pronamespace = $2::oid 
+	          union all
+	          select T.oid as object_id,
+	                 T.typacl as acl
+	          from pg_catalog.pg_type T
+	          where typnamespace = $3::oid 
+	          order by object_id
+2025-07-16 15:08:47.819 GMT [java-guru] alex@java-guru 172.19.0.1 35 284: LOG:  duration: 0.315 ms  bind <unnamed>: select T.oid as object_id,
+	                 T.relacl as acl
+	          from pg_catalog.pg_class T
+	          where relnamespace = $1::oid 
+	          union all
+	          select T.oid as object_id,
+	                 T.proacl as acl
+	          from pg_catalog.pg_proc T
+	          where pronamespace = $2::oid 
+	          union all
+	          select T.oid as object_id,
+	                 T.typacl as acl
+	          from pg_catalog.pg_type T
+	          where typnamespace = $3::oid 
+	          order by object_id
+2025-07-16 15:08:47.819 GMT [java-guru] alex@java-guru 172.19.0.1 35 285: DETAIL:  Parameters: $1 = '2200', $2 = '2200', $3 = '2200'
+2025-07-16 15:08:47.819 GMT [java-guru] alex@java-guru 172.19.0.1 35 286: LOG:  execute <unnamed>: select T.oid as object_id,
+	                 T.relacl as acl
+	          from pg_catalog.pg_class T
+	          where relnamespace = $1::oid 
+	          union all
+	          select T.oid as object_id,
+	                 T.proacl as acl
+	          from pg_catalog.pg_proc T
+	          where pronamespace = $2::oid 
+	          union all
+	          select T.oid as object_id,
+	                 T.typacl as acl
+	          from pg_catalog.pg_type T
+	          where typnamespace = $3::oid 
+	          order by object_id
+2025-07-16 15:08:47.819 GMT [java-guru] alex@java-guru 172.19.0.1 35 287: DETAIL:  Parameters: $1 = '2200', $2 = '2200', $3 = '2200'
+2025-07-16 15:08:47.820 GMT [java-guru] alex@java-guru 172.19.0.1 35 288: LOG:  duration: 0.324 ms
+2025-07-16 15:08:47.825 GMT [java-guru] alex@java-guru 172.19.0.1 35 289: LOG:  duration: 0.106 ms  parse <unnamed>: select T.oid as object_id,
+	               A.attnum as attr_position,
+	               A.attacl as acl
+	        from pg_catalog.pg_attribute A join pg_catalog.pg_class T on T.oid = A.attrelid
+	        where relnamespace = $1::oid
+	          and attnum > 0 
+	        order by object_id, attr_position
+2025-07-16 15:08:47.825 GMT [java-guru] alex@java-guru 172.19.0.1 35 290: LOG:  duration: 0.380 ms  bind <unnamed>: select T.oid as object_id,
+	               A.attnum as attr_position,
+	               A.attacl as acl
+	        from pg_catalog.pg_attribute A join pg_catalog.pg_class T on T.oid = A.attrelid
+	        where relnamespace = $1::oid
+	          and attnum > 0 
+	        order by object_id, attr_position
+2025-07-16 15:08:47.825 GMT [java-guru] alex@java-guru 172.19.0.1 35 291: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.825 GMT [java-guru] alex@java-guru 172.19.0.1 35 292: LOG:  execute <unnamed>: select T.oid as object_id,
+	               A.attnum as attr_position,
+	               A.attacl as acl
+	        from pg_catalog.pg_attribute A join pg_catalog.pg_class T on T.oid = A.attrelid
+	        where relnamespace = $1::oid
+	          and attnum > 0 
+	        order by object_id, attr_position
+2025-07-16 15:08:47.825 GMT [java-guru] alex@java-guru 172.19.0.1 35 293: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.825 GMT [java-guru] alex@java-guru 172.19.0.1 35 294: LOG:  duration: 0.081 ms
+2025-07-16 15:08:47.831 GMT [java-guru] alex@java-guru 172.19.0.1 35 295: LOG:  duration: 0.216 ms  parse <unnamed>: select
+	       T.relkind as view_kind,
+	       T.oid as view_id,
+	       pg_catalog.pg_get_viewdef(T.oid, true) as source_text
+	from pg_catalog.pg_class T
+	  join pg_catalog.pg_namespace N on T.relnamespace = N.oid
+	where N.oid = $1::oid
+	  and T.relkind in ('m','v')
+	  --  and T.relname in ( :[*f_names] )
+	  --  and (pg_catalog.age(T.xmin) <= #SRCTXAGE or exists(
+	  --  select A.attrelid from pg_catalog.pg_attribute A where A.attrelid = T.oid and pg_catalog.age(A.xmin) <= #SRCTXAGE))
+2025-07-16 15:08:47.831 GMT [java-guru] alex@java-guru 172.19.0.1 35 296: LOG:  duration: 0.142 ms  bind <unnamed>: select
+	       T.relkind as view_kind,
+	       T.oid as view_id,
+	       pg_catalog.pg_get_viewdef(T.oid, true) as source_text
+	from pg_catalog.pg_class T
+	  join pg_catalog.pg_namespace N on T.relnamespace = N.oid
+	where N.oid = $1::oid
+	  and T.relkind in ('m','v')
+	  --  and T.relname in ( :[*f_names] )
+	  --  and (pg_catalog.age(T.xmin) <= #SRCTXAGE or exists(
+	  --  select A.attrelid from pg_catalog.pg_attribute A where A.attrelid = T.oid and pg_catalog.age(A.xmin) <= #SRCTXAGE))
+2025-07-16 15:08:47.831 GMT [java-guru] alex@java-guru 172.19.0.1 35 297: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.831 GMT [java-guru] alex@java-guru 172.19.0.1 35 298: LOG:  execute <unnamed>: select
+	       T.relkind as view_kind,
+	       T.oid as view_id,
+	       pg_catalog.pg_get_viewdef(T.oid, true) as source_text
+	from pg_catalog.pg_class T
+	  join pg_catalog.pg_namespace N on T.relnamespace = N.oid
+	where N.oid = $1::oid
+	  and T.relkind in ('m','v')
+	  --  and T.relname in ( :[*f_names] )
+	  --  and (pg_catalog.age(T.xmin) <= #SRCTXAGE or exists(
+	  --  select A.attrelid from pg_catalog.pg_attribute A where A.attrelid = T.oid and pg_catalog.age(A.xmin) <= #SRCTXAGE))
+2025-07-16 15:08:47.831 GMT [java-guru] alex@java-guru 172.19.0.1 35 299: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.831 GMT [java-guru] alex@java-guru 172.19.0.1 35 300: LOG:  duration: 0.083 ms
+2025-07-16 15:08:47.837 GMT [java-guru] alex@java-guru 172.19.0.1 35 301: LOG:  duration: 0.298 ms  parse <unnamed>: with A as (
+	  select oid as table_id, pg_catalog.upper(relkind) as table_kind
+	  from pg_catalog.pg_class
+	  where relnamespace = $1::oid
+	    and relkind in ('r', 'm', 'v', 'f', 'p')
+	--  and relname in ( :[*f_names] )
+	)
+	select table_kind,
+	       table_id,
+	       R.oid as rule_id,
+	       pg_catalog.pg_get_ruledef(R.oid, true) as source_text
+	from A join pg_catalog.pg_rewrite R
+	        on A.table_id = R.ev_class
+	where R.rulename != '_RETURN'::name
+	  --  and pg_catalog.age(R.xmin) <= #SRCTXAGE
+2025-07-16 15:08:47.837 GMT [java-guru] alex@java-guru 172.19.0.1 35 302: LOG:  duration: 0.299 ms  bind <unnamed>: with A as (
+	  select oid as table_id, pg_catalog.upper(relkind) as table_kind
+	  from pg_catalog.pg_class
+	  where relnamespace = $1::oid
+	    and relkind in ('r', 'm', 'v', 'f', 'p')
+	--  and relname in ( :[*f_names] )
+	)
+	select table_kind,
+	       table_id,
+	       R.oid as rule_id,
+	       pg_catalog.pg_get_ruledef(R.oid, true) as source_text
+	from A join pg_catalog.pg_rewrite R
+	        on A.table_id = R.ev_class
+	where R.rulename != '_RETURN'::name
+	  --  and pg_catalog.age(R.xmin) <= #SRCTXAGE
+2025-07-16 15:08:47.837 GMT [java-guru] alex@java-guru 172.19.0.1 35 303: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.837 GMT [java-guru] alex@java-guru 172.19.0.1 35 304: LOG:  execute <unnamed>: with A as (
+	  select oid as table_id, pg_catalog.upper(relkind) as table_kind
+	  from pg_catalog.pg_class
+	  where relnamespace = $1::oid
+	    and relkind in ('r', 'm', 'v', 'f', 'p')
+	--  and relname in ( :[*f_names] )
+	)
+	select table_kind,
+	       table_id,
+	       R.oid as rule_id,
+	       pg_catalog.pg_get_ruledef(R.oid, true) as source_text
+	from A join pg_catalog.pg_rewrite R
+	        on A.table_id = R.ev_class
+	where R.rulename != '_RETURN'::name
+	  --  and pg_catalog.age(R.xmin) <= #SRCTXAGE
+2025-07-16 15:08:47.837 GMT [java-guru] alex@java-guru 172.19.0.1 35 305: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.837 GMT [java-guru] alex@java-guru 172.19.0.1 35 306: LOG:  duration: 0.074 ms
+2025-07-16 15:08:47.842 GMT [java-guru] alex@java-guru 172.19.0.1 35 307: LOG:  duration: 0.230 ms  parse <unnamed>: with system_languages as ( select oid as lang
+	                           from pg_catalog.pg_language
+	                           where lanname in ('c','internal') )
+	select oid as id,
+	       pg_catalog.pg_get_function_arguments(oid) as arguments_def,
+	       pg_catalog.pg_get_function_result(oid) as result_def,
+	       pg_catalog.pg_get_function_sqlbody(oid) /* null */ as sqlbody_def,
+	       prosrc as source_text
+	from pg_catalog.pg_proc
+	where pronamespace = $1::oid
+	  --  and pg_proc.proname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #SRCTXAGE
+	  and not (prokind = 'a') /* proisagg */
+	  and prolang not in (select lang from system_languages)
+	  and prosrc is not null
+2025-07-16 15:08:47.842 GMT [java-guru] alex@java-guru 172.19.0.1 35 308: LOG:  duration: 0.238 ms  bind <unnamed>: with system_languages as ( select oid as lang
+	                           from pg_catalog.pg_language
+	                           where lanname in ('c','internal') )
+	select oid as id,
+	       pg_catalog.pg_get_function_arguments(oid) as arguments_def,
+	       pg_catalog.pg_get_function_result(oid) as result_def,
+	       pg_catalog.pg_get_function_sqlbody(oid) /* null */ as sqlbody_def,
+	       prosrc as source_text
+	from pg_catalog.pg_proc
+	where pronamespace = $1::oid
+	  --  and pg_proc.proname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #SRCTXAGE
+	  and not (prokind = 'a') /* proisagg */
+	  and prolang not in (select lang from system_languages)
+	  and prosrc is not null
+2025-07-16 15:08:47.842 GMT [java-guru] alex@java-guru 172.19.0.1 35 309: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.842 GMT [java-guru] alex@java-guru 172.19.0.1 35 310: LOG:  execute <unnamed>: with system_languages as ( select oid as lang
+	                           from pg_catalog.pg_language
+	                           where lanname in ('c','internal') )
+	select oid as id,
+	       pg_catalog.pg_get_function_arguments(oid) as arguments_def,
+	       pg_catalog.pg_get_function_result(oid) as result_def,
+	       pg_catalog.pg_get_function_sqlbody(oid) /* null */ as sqlbody_def,
+	       prosrc as source_text
+	from pg_catalog.pg_proc
+	where pronamespace = $1::oid
+	  --  and pg_proc.proname in ( :[*f_names] )
+	  --  and pg_catalog.age(xmin) <= #SRCTXAGE
+	  and not (prokind = 'a') /* proisagg */
+	  and prolang not in (select lang from system_languages)
+	  and prosrc is not null
+2025-07-16 15:08:47.842 GMT [java-guru] alex@java-guru 172.19.0.1 35 311: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.843 GMT [java-guru] alex@java-guru 172.19.0.1 35 312: LOG:  duration: 0.517 ms
+2025-07-16 15:08:47.848 GMT [java-guru] alex@java-guru 172.19.0.1 35 313: LOG:  duration: 0.283 ms  parse <unnamed>: select D.objid as dependent_id,
+	       D.refobjid as owner_id,
+	       D.refobjsubid as owner_subobject_id
+	from pg_depend D
+	  join pg_class C_SEQ on D.objid    = C_SEQ.oid and D.classid    = 'pg_class'::regclass::oid
+	  join pg_class C_TAB on D.refobjid = C_TAB.oid and D.refclassid = 'pg_class'::regclass::oid
+	where C_SEQ.relkind = 'S'
+	  and C_TAB.relkind = 'r'
+	  and D.refobjsubid <> 0
+	  and (D.deptype = 'a' or D.deptype = 'i')
+	  and C_TAB.relnamespace = $1::oid
+	order by owner_id
+2025-07-16 15:08:47.848 GMT [java-guru] alex@java-guru 172.19.0.1 35 314: LOG:  duration: 0.344 ms  bind <unnamed>: select D.objid as dependent_id,
+	       D.refobjid as owner_id,
+	       D.refobjsubid as owner_subobject_id
+	from pg_depend D
+	  join pg_class C_SEQ on D.objid    = C_SEQ.oid and D.classid    = 'pg_class'::regclass::oid
+	  join pg_class C_TAB on D.refobjid = C_TAB.oid and D.refclassid = 'pg_class'::regclass::oid
+	where C_SEQ.relkind = 'S'
+	  and C_TAB.relkind = 'r'
+	  and D.refobjsubid <> 0
+	  and (D.deptype = 'a' or D.deptype = 'i')
+	  and C_TAB.relnamespace = $1::oid
+	order by owner_id
+2025-07-16 15:08:47.848 GMT [java-guru] alex@java-guru 172.19.0.1 35 315: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.848 GMT [java-guru] alex@java-guru 172.19.0.1 35 316: LOG:  execute <unnamed>: select D.objid as dependent_id,
+	       D.refobjid as owner_id,
+	       D.refobjsubid as owner_subobject_id
+	from pg_depend D
+	  join pg_class C_SEQ on D.objid    = C_SEQ.oid and D.classid    = 'pg_class'::regclass::oid
+	  join pg_class C_TAB on D.refobjid = C_TAB.oid and D.refclassid = 'pg_class'::regclass::oid
+	where C_SEQ.relkind = 'S'
+	  and C_TAB.relkind = 'r'
+	  and D.refobjsubid <> 0
+	  and (D.deptype = 'a' or D.deptype = 'i')
+	  and C_TAB.relnamespace = $1::oid
+	order by owner_id
+2025-07-16 15:08:47.848 GMT [java-guru] alex@java-guru 172.19.0.1 35 317: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.848 GMT [java-guru] alex@java-guru 172.19.0.1 35 318: LOG:  duration: 0.080 ms
+2025-07-16 15:08:47.858 GMT [java-guru] alex@java-guru 172.19.0.1 35 319: LOG:  duration: 0.135 ms  parse <unnamed>: select distinct connamespace as schema_id
+	from pg_catalog.pg_constraint F,
+	     pg_catalog.pg_class O
+	where F.contype = 'f'
+	  and F.confrelid = O.oid
+	  and O.relnamespace in ($1)
+2025-07-16 15:08:47.858 GMT [java-guru] alex@java-guru 172.19.0.1 35 320: LOG:  duration: 0.224 ms  bind <unnamed>: select distinct connamespace as schema_id
+	from pg_catalog.pg_constraint F,
+	     pg_catalog.pg_class O
+	where F.contype = 'f'
+	  and F.confrelid = O.oid
+	  and O.relnamespace in ($1)
+2025-07-16 15:08:47.858 GMT [java-guru] alex@java-guru 172.19.0.1 35 321: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.858 GMT [java-guru] alex@java-guru 172.19.0.1 35 322: LOG:  execute <unnamed>: select distinct connamespace as schema_id
+	from pg_catalog.pg_constraint F,
+	     pg_catalog.pg_class O
+	where F.contype = 'f'
+	  and F.confrelid = O.oid
+	  and O.relnamespace in ($1)
+2025-07-16 15:08:47.858 GMT [java-guru] alex@java-guru 172.19.0.1 35 323: DETAIL:  Parameters: $1 = '2200'
+2025-07-16 15:08:47.858 GMT [java-guru] alex@java-guru 172.19.0.1 35 324: LOG:  duration: 0.042 ms
+2025-07-16 15:08:47.869 GMT [java-guru] alex@java-guru 172.19.0.1 35 325: LOG:  duration: 0.033 ms  parse <unnamed>: SHOW TRANSACTION ISOLATION LEVEL
+2025-07-16 15:08:47.869 GMT [java-guru] alex@java-guru 172.19.0.1 35 326: LOG:  duration: 0.007 ms  bind <unnamed>: SHOW TRANSACTION ISOLATION LEVEL
+2025-07-16 15:08:47.869 GMT [java-guru] alex@java-guru 172.19.0.1 35 327: LOG:  execute <unnamed>: SHOW TRANSACTION ISOLATION LEVEL
+2025-07-16 15:08:47.869 GMT [java-guru] alex@java-guru 172.19.0.1 35 328: LOG:  duration: 0.012 ms
