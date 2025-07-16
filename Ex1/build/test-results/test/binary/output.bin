@@ -1,6 +1,0 @@
-insert into
-public.users
-1(username, firstname, lastname, birth_date, age)
-values
-N(('ivan1@vail.ru'), ('ivan'), ('ivanov'), ('2000-01-01'::date), ('25'::int4))
-
